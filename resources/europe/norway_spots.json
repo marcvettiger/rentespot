@@ -1,0 +1,392 @@
+[
+	{
+		"_id": 4660,
+		"name": "Alnes Fyr",
+		"description": "",
+		"lat": 62.4908,
+		"lon": 5.9602,
+		"url": "/Alnes-Fyr-Surf-Report/4660/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 1886,
+		"name": "Bore",
+		"description": "",
+		"lat": 58.7992,
+		"lon": 5.5458,
+		"url": "/Bore-Surf-Report/1886/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 553,
+		"name": "Brusand",
+		"description": "",
+		"lat": 58.5285,
+		"lon": 5.7695,
+		"url": "/Brusand-Surf-Report/553/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 1888,
+		"name": "Byberg",
+		"description": "",
+		"lat": 58.8342,
+		"lon": 5.5505,
+		"url": "/Byberg-Surf-Report/1888/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 4437,
+		"name": "Ducks",
+		"description": "",
+		"lat": 69.068,
+		"lon": 15.5223,
+		"url": "/Ducks-Surf-Report/4437/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 1893,
+		"name": "Ervik",
+		"description": "",
+		"lat": 62.1667,
+		"lon": 5.1083,
+		"url": "/Ervik-Surf-Report/1893/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 1889,
+		"name": "Hellestø",
+		"description": "",
+		"lat": 58.8428,
+		"lon": 5.5571,
+		"url": "/Hellesto-Surf-Report/1889/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 552,
+		"name": "Hoddevika",
+		"description": "",
+		"lat": 62.1236,
+		"lon": 5.1539,
+		"url": "/Hoddevika-Surf-Report/552/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 831,
+		"name": "Hovden",
+		"description": "",
+		"lat": 61.686,
+		"lon": 4.8209,
+		"url": "/Hovden-Surf-Report/831/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 673,
+		"name": "Hustadvika",
+		"description": "",
+		"lat": 62.9841,
+		"lon": 7.1528,
+		"url": "/Hustadvika-Surf-Report/673/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 678,
+		"name": "Karmøy",
+		"description": "",
+		"lat": 59.2,
+		"lon": 5.18,
+		"url": "/Karmoy-Surf-Report/678/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 695,
+		"name": "Kraakevika",
+		"description": "",
+		"lat": 62.6726,
+		"lon": 6.1681,
+		"url": "/Kraakevika-Surf-Report/695/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 1892,
+		"name": "Kvassheim",
+		"description": "",
+		"lat": 58.5488,
+		"lon": 5.6695,
+		"url": "/Kvassheim-Surf-Report/1892/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 653,
+		"name": "Lista",
+		"description": "",
+		"lat": 58.0512,
+		"lon": 6.6476,
+		"url": "/Lista-Surf-Report/653/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 3752,
+		"name": "Lop camping",
+		"description": "Beachbreak 10 min drive from BodÃ¸ City",
+		"lat": 67.3245,
+		"lon": 14.477,
+		"url": "/Lop-camping-Surf-Report/3752/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 1884,
+		"name": "Pigsty/Piggy",
+		"description": "",
+		"lat": 58.7634,
+		"lon": 5.4992,
+		"url": "/Pigsty-Piggy-Surf-Report/1884/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 555,
+		"name": "Point Perfect (Orre)",
+		"description": "Covering all the breaks around Orre",
+		"lat": 58.6969,
+		"lon": 5.5382,
+		"url": "/Point-Perfect-Orre-Surf-Report/555/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 1883,
+		"name": "Refsnes",
+		"description": "",
+		"lat": 58.6915,
+		"lon": 5.5486,
+		"url": "/Refsnes-Surf-Report/1883/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 1885,
+		"name": "Reve Havn",
+		"description": "",
+		"lat": 58.7721,
+		"lon": 5.5164,
+		"url": "/Reve-Havn-Surf-Report/1885/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 556,
+		"name": "Saltstein",
+		"description": "",
+		"lat": 58.965,
+		"lon": 9.8529,
+		"url": "/Saltstein-Surf-Report/556/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 3787,
+		"name": "Seines",
+		"description": "Straumoya. 40 min from Bodoe city.",
+		"lat": 67.2098,
+		"lon": 14.353,
+		"url": "/Seines-Surf-Report/3787/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 554,
+		"name": "Sele",
+		"description": "This forecast also covers Sele, Bore and Hellesto",
+		"lat": 58.8135,
+		"lon": 5.5427,
+		"url": "/Sele-Surf-Report/554/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 3766,
+		"name": "Skallelv",
+		"description": " ",
+		"lat": 70.1781,
+		"lon": 30.344,
+		"url": "/Skallelv-Surf-Report/3766/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 3751,
+		"name": "Storvika",
+		"description": "",
+		"lat": 66.9488,
+		"lon": 13.7183,
+		"url": "/Storvika-Surf-Report/3751/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 1894,
+		"name": "Suppå",
+		"description": "",
+		"lat": 58.8223,
+		"lon": 5.5369,
+		"url": "/Suppa-Surf-Report/1894/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	},
+	{
+		"_id": 674,
+		"name": "Unstad Beach",
+		"description": "",
+		"lat": 68.2695,
+		"lon": 13.581,
+		"url": "/Unstad-Beach-Surf-Report/674/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 52
+		},
+		"country": {
+			"iso": "no"
+		}
+	}
+]

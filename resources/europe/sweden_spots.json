@@ -1,0 +1,287 @@
+[
+	{
+		"_id": 4307,
+		"name": "Angjarnsudden",
+		"description": "",
+		"lat": 57.2735,
+		"lon": 17.0617,
+		"url": "/Angjarnsudden-Surf-Report/4307/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4302,
+		"name": "Apelviken",
+		"description": "",
+		"lat": 57.0822,
+		"lon": 12.2544,
+		"url": "/Apelviken-Surf-Report/4302/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4301,
+		"name": "Asa",
+		"description": "",
+		"lat": 57.3389,
+		"lon": 12.0919,
+		"url": "/Asa-Surf-Report/4301/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4311,
+		"name": "Faro Island",
+		"description": "",
+		"lat": 57.9081,
+		"lon": 19.2004,
+		"url": "/Faro-Island-Surf-Report/4311/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4304,
+		"name": "Glommen",
+		"description": "",
+		"lat": 56.9237,
+		"lon": 12.3506,
+		"url": "/Glommen-Surf-Report/4304/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4305,
+		"name": "Gronhogen",
+		"description": "",
+		"lat": 56.263,
+		"lon": 16.4005,
+		"url": "/Gronhogen-Surf-Report/4305/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4306,
+		"name": "Haga Park",
+		"description": "",
+		"lat": 56.5344,
+		"lon": 16.3813,
+		"url": "/Haga-Park-Surf-Report/4306/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4310,
+		"name": "Hogklint",
+		"description": "",
+		"lat": 57.6011,
+		"lon": 18.2102,
+		"url": "/Hogklint-Surf-Report/4310/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4314,
+		"name": "Kappelhamnsviken",
+		"description": "",
+		"lat": 57.93,
+		"lon": 18.7386,
+		"url": "/Kappelhamnsviken-Surf-Report/4314/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4313,
+		"name": "Kåseberga",
+		"description": "",
+		"lat": 55.3842,
+		"lon": 14.0671,
+		"url": "/Kaseberga-Surf-Report/4313/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4317,
+		"name": "Lillsnäck Point",
+		"description": "",
+		"lat": 64.7904,
+		"lon": 21.1265,
+		"url": "/Lillsnack-Point-Surf-Report/4317/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4308,
+		"name": "Melbystrand",
+		"description": "",
+		"lat": 56.5156,
+		"lon": 12.8978,
+		"url": "/Melbystrand-Surf-Report/4308/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4316,
+		"name": "Mölle",
+		"description": "",
+		"lat": 56.2844,
+		"lon": 12.4913,
+		"url": "/Molle-Surf-Report/4316/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4318,
+		"name": "Sikhjalma",
+		"description": "",
+		"lat": 60.5795,
+		"lon": 17.8007,
+		"url": "/Sikhjalma-Surf-Report/4318/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4309,
+		"name": "Tofta",
+		"description": "",
+		"lat": 57.4891,
+		"lon": 18.1234,
+		"url": "/Tofta-Surf-Report/4309/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4312,
+		"name": "Torö Stenstrand",
+		"description": "",
+		"lat": 58.7964,
+		"lon": 17.807,
+		"url": "/Toro-Stenstrand-Surf-Report/4312/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4303,
+		"name": "Traslovslage",
+		"description": "",
+		"lat": 57.0501,
+		"lon": 12.2644,
+		"url": "/Traslovslage-Surf-Report/4303/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4315,
+		"name": "Vaddo",
+		"description": "",
+		"lat": 59.9912,
+		"lon": 18.9125,
+		"url": "/Vaddo-Surf-Report/4315/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	},
+	{
+		"_id": 4300,
+		"name": "Vik",
+		"description": "",
+		"lat": 55.6163,
+		"lon": 14.2859,
+		"url": "/Vik-Surf-Report/4300/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 103
+		},
+		"country": {
+			"iso": "se"
+		}
+	}
+]

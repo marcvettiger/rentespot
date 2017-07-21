@@ -1,0 +1,422 @@
+[
+	{
+		"_id": 4531,
+		"name": "Alaçatı",
+		"description": "",
+		"lat": 38.2271,
+		"lon": 26.3604,
+		"url": "/Alacat-Surf-Report/4531/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4456,
+		"name": "Alanya",
+		"description": "",
+		"lat": 36.5489,
+		"lon": 31.979,
+		"url": "/Alanya-Surf-Report/4456/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4461,
+		"name": "Antalya",
+		"description": "",
+		"lat": 36.8774,
+		"lon": 30.6649,
+		"url": "/Antalya-Surf-Report/4461/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4452,
+		"name": "Boat Shed",
+		"description": "",
+		"lat": 42.0443,
+		"lon": 34.9242,
+		"url": "/Boat-Shed-Surf-Report/4452/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4445,
+		"name": "Bockoi Plaji",
+		"description": "",
+		"lat": 41.7811,
+		"lon": 32.4827,
+		"url": "/Bockoi-Plaji-Surf-Report/4445/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4540,
+		"name": "Demirciköy",
+		"description": "",
+		"lat": 41.2507,
+		"lon": 29.0652,
+		"url": "/Demircikoy-Surf-Report/4540/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4440,
+		"name": "Erikli",
+		"description": "",
+		"lat": 41.8832,
+		"lon": 28.055,
+		"url": "/Erikli-Surf-Report/4440/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4453,
+		"name": "Farmland",
+		"description": "",
+		"lat": 42.0761,
+		"lon": 34.9494,
+		"url": "/Farmland-Surf-Report/4453/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4455,
+		"name": "Gerze",
+		"description": "",
+		"lat": 41.8189,
+		"lon": 35.1738,
+		"url": "/Gerze-Surf-Report/4455/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4449,
+		"name": "Hardi",
+		"description": "",
+		"lat": 41.9579,
+		"lon": 34.194,
+		"url": "/Hardi-Surf-Report/4449/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4450,
+		"name": "Hotel Turistik",
+		"description": "",
+		"lat": 41.9513,
+		"lon": 34.3388,
+		"url": "/Hotel-Turistik-Surf-Report/4450/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4454,
+		"name": "Kalesi Plaji",
+		"description": "",
+		"lat": 42.0264,
+		"lon": 35.1418,
+		"url": "/Kalesi-Plaji-Surf-Report/4454/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4468,
+		"name": "Karaburan",
+		"description": "Various beach and reef breaks either side of the cape in the centre of the village.",
+		"lat": 41.3398,
+		"lon": 28.6899,
+		"url": "/Karaburan-Surf-Report/4468/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4441,
+		"name": "Kastro",
+		"description": "",
+		"lat": 41.6287,
+		"lon": 28.1026,
+		"url": "/Kastro-Surf-Report/4441/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4469,
+		"name": "Kemer",
+		"description": "A number of spots from the &#039;artificial reef&#039; of the ruins of the ancient city of Phaselis to the breaks in Sundance village.",
+		"lat": 36.6044,
+		"lon": 30.5667,
+		"url": "/Kemer-Surf-Report/4469/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4465,
+		"name": "Kilyos",
+		"description": "Severals spots from sand bottom beach break suitable for all levels to a rock bottomed beach on the west of the cape more suitable for better surfers.",
+		"lat": 41.246,
+		"lon": 29.0327,
+		"url": "/Kilyos-Surf-Report/4465/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4444,
+		"name": "Kumcağız",
+		"description": "",
+		"lat": 41.1612,
+		"lon": 30.2241,
+		"url": "/Kumcaz-Surf-Report/4444/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4451,
+		"name": "Oluza River",
+		"description": "",
+		"lat": 41.9471,
+		"lon": 34.6938,
+		"url": "/Oluza-River-Surf-Report/4451/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4470,
+		"name": "Olympos Beach",
+		"description": "Large beach break suitable for all surfers and walking distance from the ruins of ancient Olympus",
+		"lat": 36.4084,
+		"lon": 30.48,
+		"url": "/Olympos-Beach-Surf-Report/4470/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4447,
+		"name": "Rivermouth Jetties",
+		"description": "",
+		"lat": 41.8944,
+		"lon": 32.9776,
+		"url": "/Rivermouth-Jetties-Surf-Report/4447/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4467,
+		"name": "Rumeli Feneri",
+		"description": "Shallow, rocky reef break offering good waves in the right conditions.",
+		"lat": 41.2347,
+		"lon": 29.1149,
+		"url": "/Rumeli-Feneri-Surf-Report/4467/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4457,
+		"name": "Side",
+		"description": "",
+		"lat": 36.765,
+		"lon": 31.3958,
+		"url": "/Side-Surf-Report/4457/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4442,
+		"name": "Şile Merkez",
+		"description": "",
+		"lat": 41.1749,
+		"lon": 29.626,
+		"url": "/ile-Merkez-Surf-Report/4442/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4488,
+		"name": "Şile Resort",
+		"description": "",
+		"lat": 41.1718,
+		"lon": 29.6337,
+		"url": "/ile-Resort-Surf-Report/4488/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4466,
+		"name": "Suma Beach",
+		"description": "Large sand bottomed beach suitable for all levels with a surf school and surf hire business.",
+		"lat": 41.2466,
+		"lon": 29.0049,
+		"url": "/Suma-Beach-Surf-Report/4466/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4443,
+		"name": "Woody Wille",
+		"description": "",
+		"lat": 41.1558,
+		"lon": 29.7295,
+		"url": "/Woody-Wille-Surf-Report/4443/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4448,
+		"name": "Yali Restaurant",
+		"description": "",
+		"lat": 41.9743,
+		"lon": 33.2042,
+		"url": "/Yali-Restaurant-Surf-Report/4448/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	},
+	{
+		"_id": 4446,
+		"name": "Zeus Temple",
+		"description": "",
+		"lat": 41.848,
+		"lon": 32.7544,
+		"url": "/Zeus-Temple-Surf-Report/4446/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 105
+		},
+		"country": {
+			"iso": "tr"
+		}
+	}
+]
