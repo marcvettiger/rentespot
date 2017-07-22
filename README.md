@@ -1,6 +1,11 @@
 # Rentepoint
 
-Setup:
+### Requirements:
+* python 2.7.12
+* pip
 
-$ pip install -r requirements.txt
+### Setup:
 
+~~~
+pip install -r requirements.txt
+~~~
