@@ -2,6 +2,7 @@ from SpotDataEngine import SpotDataEngine
 
 
 class Spot:
+    base_url = "http://magicseaweed.com"
 
     spot_engine = None
 
@@ -12,6 +13,7 @@ class Spot:
         self.id = init_data['_id']
         self.name = init_data['name']
         self.url = init_data['url']
+        self.url_full = self.base_url + self.url
         self.lat = init_data['lat']
         self.lon = init_data['lon']
         self.country = init_data['country']['iso']
@@ -40,6 +42,7 @@ class Spot:
                        self.country,
                        self.lat,
                        self.lon,
+                       self.url_full,
                        ]
         return pretty_prop
 
@@ -53,7 +56,8 @@ class Spot:
 
     def get_pretty_all(self):
         pretty = self.get_pretty_properties()
-        pretty.append(self.get_pretty_ratings())
+        for rating in self.ratings:
+            pretty.append(rating)
         return pretty
 
     def get_pretty_all_long(self):

@@ -1,7 +1,10 @@
 import logging
 import csv
 import json
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 from Spot import Spot
+
 
 
 ## Write a Loader/Init/ Prepare SpotCollection class here
@@ -40,6 +43,7 @@ def load_spots(filename):
     logging.info("Finished initializing France Spots -  returning List")
     return loaded_spots
 
+############################
 
 def write_csv(csv_filename, spots):
     #TODO: Unicode Issue!
@@ -48,7 +52,19 @@ def write_csv(csv_filename, spots):
         for spot in spots:
             writer.writerow(spot.get_all_pretty())
 
-############################
+
+def write_sheet(data_rows):
+    scope = ['https://spreadsheets.google.com/feeds']
+    credentials = ServiceAccountCredentials.from_json_keyfile_name('resources/client_secret.json', scope)
+    client = gspread.authorize(credentials)
+    sheet = client.open('Rente Point DataBase').sheet1
+
+    index = sheet.row_count
+
+    for row in data_rows:
+        index += 1
+        sheet.insert_row(row, index)
+
 
 
 
@@ -60,20 +76,27 @@ def main():
 
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s', filename='log/main.log',filemode='w')
 
+    #TODO version log files with date
     logging.info("# Starting main ")
 
     # spots = load_spots("japan_spots.json")
-    spots = load_spots("europe/azores_spots.json")
+    spots = load_spots("europe/france_spots.json")
 
-    for spot in spots[0:3]:
+    sheet_list = []
+
+    for spot in spots:
         spot.init_engine()
         spot.initialize()
         spot.set_ratings()
-        for day in spot.get_pretty_all_long():
-            print day
-            # write this to csv
 
-    # write_csv("20170720_japan_spots.csv", spots)
+        # prepare for writing to gspread
+        row = spot.get_pretty_all()
+        print(row)
+        sheet_list.append(row)
+
+    write_sheet(sheet_list)
+
+
 
     logging.info("# Finished main.py")
 
