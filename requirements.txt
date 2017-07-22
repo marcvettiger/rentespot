@@ -1,0 +1,8 @@
+####### project requirements.txt #######
+#
+# run it from cmd line:
+# pip install -r requirements.txt
+
+bs4
+numpy
+requests

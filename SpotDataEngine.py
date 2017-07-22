@@ -1,7 +1,7 @@
 from __future__ import division
 from numpy import mean
 import logging
-from bs4 import BeautifulSoup
+import bs4
 import requests
 import json
 
@@ -21,7 +21,7 @@ class SpotDataEngine:
         logging.info("Scraping spot data for %s" % self.url)
         try:
             html_text = requests.get(self.url).text
-            soup = BeautifulSoup(html_text, "html5lib")
+            soup = bs4.BeautifulSoup(html_text, "html5lib")
             logging.info("Parsing data as json")
             data_chart = soup.find('div', {"class": "msw-fcc"})["data-chartdata"]
             self.data_json = json.loads(data_chart)
