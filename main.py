@@ -67,11 +67,6 @@ def write_sheet(data_rows):
 
 
 
-
-
-
-
-
 def main():
 
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s', filename='log/main.log',filemode='w')
