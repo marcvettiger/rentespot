@@ -84,7 +84,7 @@ def main():
 
     sheet_list = []
 
-    for spot in spots:
+    for spot in spots[:1]:
         spot.init_engine()
         spot.initialize()
         spot.set_ratings()
