@@ -18,13 +18,15 @@ class Spot:
         self.lon = init_data['lon']
         self.country = init_data['country']['iso']
 
+    def initialize(self):
+        self.init_engine()
+        self.set_dates()
+        self.set_ratings()
+
     def init_engine(self):
         #TODO: Should return None if no internet or data unable to read
         self.spot_engine = SpotDataEngine(self.url)
 
-    def initialize(self):
-        self.set_dates()
-        self.set_ratings()
 
     def set_dates(self):
         if self.spot_engine.initialized is True:
