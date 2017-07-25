@@ -3,8 +3,13 @@
 # run it from cmd line:
 # pip install -r requirements.txt
 
-bs4
 numpy
+
+## data scraper requirements
+bs4
 requests
 html5lib
 
+# google spread sheet dependencies
+gspread
+oauth2client
