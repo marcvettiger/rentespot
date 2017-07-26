@@ -8,27 +8,27 @@ class GSpreadEngine:
     scope = ['https://spreadsheets.google.com/feeds']
     sheets = {}
 
-    def __init__(self):
+    def __init__(self, spread_name):
         self.credentials = ServiceAccountCredentials.from_json_keyfile_name('resources/client_secret.json', self.scope)
         self.client = gspread.authorize(self.credentials)
+        self.spread_name = spread_name
 
-    def create_sheet(self, sheet_name):
-        new_sheet = self.client.create(sheet_name)
-        new_sheet.share("marc.vettiger@gmail.com", perm_type='user', role='writer')
-        self.sheets[sheet_name] = new_sheet
-        return True
+    def create_sheet(self, new_sheet_name, new_rows=1, new_cols=16):
+        spread = self.client.open(self.spread_name)
+        spread.add_worksheet(title=new_sheet_name, rows=new_rows, cols=new_cols)
 
-    def get_sheet(self, sheet_name='Rente Point DataBase'):
-        return self.client.open(sheet_name).sheet1
+    def sheet_exists(self, sheet_name):
+        pass
 
-    def write_range(self, sheet_name, sheet_data):
-        logging.info("Opening Google Spread sheet: %s " % sheet_name)
-        sheet = self.client.open(sheet_name).sheet1
+    def write_range(self, spread_name, sheet_name, sheet_data):
+        logging.info("Opening Google Spread sheet: %s " % spread_name)
+        #spread = self.client.open(spread_name)
+        spread = self.client.open(spread_name).worksheet(sheet_name)
 
         logging.info("resize sheet to fit the data")
         # sheet_data  is a list of lists representing a matrix of data, headers being the first row.
         # first make sure the worksheet is the right size
-        sheet.resize(len(sheet_data), len(sheet_data[0]))
+        spread.resize(len(sheet_data), len(sheet_data[0]))
         cell_matrix = []
         row_number = 1
 
@@ -38,7 +38,7 @@ class GSpreadEngine:
             cell_range = 'A{row}:{letter}{row}'.format(row=row_number, letter=chr(len(row) + ord('a') - 1))
             # get the row from the worksheet
             #TODO: This is too damn slow!!
-            cell_list = sheet.range(cell_range)
+            cell_list = spread.range(cell_range)
             column_number = 0
             for cell in row:
                 cell_list[column_number].value = row[column_number]
@@ -49,7 +49,7 @@ class GSpreadEngine:
             row_number += 1
             # output the full matrix all at once to the worksheet.
         logging.info("Writing cell matrix to Google spread sheet")
-        sheet.update_cells(cell_matrix)
+        spread.update_cells(cell_matrix)
         logging.info("Writing cell matrix to Google spread sheet - done")
 
 #
@@ -60,23 +60,16 @@ def test_write_range():
     test_data = [['first', 'second', 'third'],
                  ['erste', 'zweite','dritte'],
                  ]
-    gspread_engine = GSpreadEngine()
-    gspread_engine.write_range('Rente Point DataBase', test_data)
+    gspread_engine = GSpreadEngine('Rentepoint Spread')
+    gspread_engine.create_sheet('Bitchtest')
+    gspread_engine.write_range('Rentepoint Spread', 'Bitchtest', test_data)
+
 
 def test_create_sheet():
-
-    new_sheet_name = "newSheetTest"
-    gspread_engine = GSpreadEngine()
-    naa = gspread_engine.create_sheet(new_sheet_name)
-
-    if naa is True:
-        print('worked')
-    else:
-        print('Didnt work')
-
-
-
-
+    spread_name = "Rentepoint Spread"
+    new_sheet_name = 'Blalalalalal'
+    gspread_engine = GSpreadEngine('Rentepoint Spread')
+    gspread_engine.create_sheet(new_sheet_name,)
 
 
 
@@ -86,6 +79,6 @@ if __name__ == '__main__':
                         format='%(asctime)s %(levelname)s %(module)s - %(funcName)s(): %(message)s',
                         filename='log/main.log',
                         filemode='w')
-    #test_write_range()
+    test_write_range()
     #test_create_sheet()
 
