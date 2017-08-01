@@ -42,7 +42,7 @@ def rente_point():
 
 
 
-    for country in europe_list[0:1]:
+    for country in europe_list:
         logger.info("Downloading ratings for country: %s " % country)
 
         my_spots = my_collection.get_spots_by_region(country)
@@ -60,10 +60,10 @@ def rente_point():
 
 
         # Write to Google spread sheet
-        # sheet_name = 'Rentepoint Spread'
-        # gspread_engine = GSpreadEngine(sheet_name)
-        # gspread_engine.create_sheet(country)
-        # gspread_engine.write_range(sheet_name, country , gsheet_data)
+        sheet_name = 'Rentepoint Spread'
+        gspread_engine = GSpreadEngine(sheet_name)
+        gspread_engine.create_sheet(country)
+        gspread_engine.write_range(sheet_name, country , gsheet_data)
 
 
     logger.info("Finished application")
