@@ -1,11 +1,14 @@
 import logging
+import logging.config
+import loggly.handlers
 import time
 from SpotReferenceData import SpotReferenceData
 from GSpreadEngine import GSpreadEngine
 
+
 def rente_point():
 
-    logging.info("Starting application")
+    logger.info('Starting application')
 
     my_spot_list = ["azores_spots.json",
                     "baltic_sea_spots.json",
@@ -33,14 +36,14 @@ def rente_point():
 
     europe_list = my_collection.get_spot_keys()
     europe_list.sort()
-    print("Loaded countries: %s " % europe_list)
+    logger.info("Loaded countries: %s " % europe_list)
 
 
 
 
 
-    for country in europe_list:
-        logging.info("Downloading ratings for country: %s " % country)
+    for country in europe_list[0:1]:
+        logger.info("Downloading ratings for country: %s " % country)
 
         my_spots = my_collection.get_spots_by_region(country)
 
@@ -48,29 +51,28 @@ def rente_point():
         for spot in my_spots:
             try:
                 spot.initialize()
-                logging.info(spot.get_pretty_all())
+                logger.info(spot.get_pretty_all())
                 gsheet_data.append(spot.get_pretty_all())
             except Exception as e :
-                logging.error("Exception in initializing spot: %s" % spot.get_pretty_all)
-                logging.error("sleeping for 5 sec")
+                logger.error("Exception in initializing spot: %s" % spot.get_pretty_all)
+                logger.error("sleeping for 5 sec")
                 time.sleep(5)
 
 
         # Write to Google spread sheet
-        sheet_name = 'Rentepoint Spread'
-        gspread_engine = GSpreadEngine(sheet_name)
-        gspread_engine.create_sheet(country)
-        gspread_engine.write_range(sheet_name, country , gsheet_data)
+        # sheet_name = 'Rentepoint Spread'
+        # gspread_engine = GSpreadEngine(sheet_name)
+        # gspread_engine.create_sheet(country)
+        # gspread_engine.write_range(sheet_name, country , gsheet_data)
 
 
-
-    logging.info("Finished application")
-
+    logger.info("Finished application")
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.INFO,
-                        format='%(asctime)s %(levelname)s %(module)s - %(funcName)s(): %(message)s',
-                        filename='log/main.log',
-                        filemode='w')
+    logging.config.fileConfig('cfg/logger.conf')
+    logger = logging.getLogger()
+
     rente_point()
+
+

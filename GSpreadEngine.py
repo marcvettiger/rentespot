@@ -1,6 +1,10 @@
 import logging
+import logging.config
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+
+logging.config.fileConfig('cfg/logger.conf')
+logger = logging.getLogger()
 
 
 class GSpreadEngine:
@@ -21,18 +25,18 @@ class GSpreadEngine:
         pass
 
     def write_range(self, spread_name, sheet_name, sheet_data):
-        logging.info("Opening Google Spread sheet: %s " % spread_name)
+        logger.info("Opening Google Spread sheet: %s " % spread_name)
         #spread = self.client.open(spread_name)
         spread = self.client.open(spread_name).worksheet(sheet_name)
 
-        logging.info("resize sheet to fit the data")
+        logger.info("resize sheet to fit the data")
         # sheet_data  is a list of lists representing a matrix of data, headers being the first row.
         # first make sure the worksheet is the right size
         spread.resize(len(sheet_data), len(sheet_data[0]))
         cell_matrix = []
         row_number = 1
 
-        logging.info("Preparing the data to align with selected cell range")
+        logger.info("Preparing the data to align with selected cell range")
         for row in sheet_data:
             # max 24 table width, otherwise a two character selection should be used, I didn't need this.
             cell_range = 'A{row}:{letter}{row}'.format(row=row_number, letter=chr(len(row) + ord('a') - 1))
@@ -48,9 +52,9 @@ class GSpreadEngine:
             cell_matrix = cell_matrix + cell_list
             row_number += 1
             # output the full matrix all at once to the worksheet.
-        logging.info("Writing cell matrix to Google spread sheet")
+        logger.info("Writing cell matrix to Google spread sheet")
         spread.update_cells(cell_matrix)
-        logging.info("Writing cell matrix to Google spread sheet - done")
+        logger.info("Writing cell matrix to Google spread sheet - done")
 
 #
 ## Some test functions
@@ -71,14 +75,12 @@ def test_create_sheet():
     gspread_engine = GSpreadEngine('Rentepoint Spread')
     gspread_engine.create_sheet(new_sheet_name,)
 
-
+def test_create_spread():
+    pass
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.DEBUG,
-                        format='%(asctime)s %(levelname)s %(module)s - %(funcName)s(): %(message)s',
-                        filename='log/main.log',
-                        filemode='w')
-    test_write_range()
+    pass
+    #test_write_range()
     #test_create_sheet()
 
