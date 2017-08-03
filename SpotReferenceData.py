@@ -101,15 +101,6 @@ class Test(unittest.TestCase):
         pass
 
 
-    # def test_read_file(self):
-    #     self.fail()
-    #
-    # def test_load_json(self):
-    #     self.fail()
-    #
-    # def test_get_spots(self):
-    #     self.fail()
-    #
 
 if __name__ == '__main__':
     unittest.main()
