@@ -13,3 +13,7 @@ html5lib
 # google spread sheet dependencies
 gspread
 oauth2client
+
+
+# Loggly
+loggly-python-handler

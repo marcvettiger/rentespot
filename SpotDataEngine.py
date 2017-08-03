@@ -1,9 +1,12 @@
 from __future__ import division
 from numpy import mean
-import logging
+import logging.config
 import bs4
 import requests
 import json
+
+logging.config.fileConfig('cfg/logger.conf')
+logger = logging.getLogger()
 
 
 class SpotDataEngine:
@@ -18,22 +21,20 @@ class SpotDataEngine:
         self.scrape_data()
 
     def scrape_data(self):
-        logging.info("Scraping spot data for %s" % self.url)
+        logger.info("Scraping spot data for %s" % self.url)
         try:
             html_text = requests.get(self.url).text
             soup = bs4.BeautifulSoup(html_text, "html5lib")
-            logging.info("Parsing data as json")
+            logger.debug("Parsing data as json")
             data_chart = soup.find('div', {"class": "msw-fcc"})["data-chartdata"]
             self.data_json = json.loads(data_chart)
             self.initialized = True
         except requests.exceptions.RequestException as e:
-            logging.error("Request exception %s" % e)
-
+            logger.error("Request exception %s" % e)
 
     def get_ratings_all(self):
-        # TODO: import mean
         if self.initialized is True:
-            logging.info("Getting all ratings from data JSON")
+            logger.debug("Getting all ratings from data JSON")
             ratings_all = []
             for i in self.data_json['run']:
                 ratings_all.append(i['solidRating'])
@@ -41,7 +42,7 @@ class SpotDataEngine:
 
     def get_ratings(self):
         if self.initialized is True:
-            logging.info("Getting average rating for each day for given ratings list")
+            logger.debug("Getting average rating for each day for given ratings list")
             ratings_all = self.get_ratings_all()
             ratings_mean = []
             for i in range(0, len(ratings_all), 3):
@@ -52,6 +53,7 @@ class SpotDataEngine:
 
     def get_dates(self):
         if self.initialized is True:
-            logging.info("Getting all dates")
+            logger.debug("Getting all dates")
             dates_with_duplicates = [i["anchor"] for i in self.data_json['data'][0]]
             return dates_with_duplicates[::3]
+

@@ -5,6 +5,9 @@ import unittest
 from Spot import Spot
 
 
+logging.config.fileConfig('cfg/logger.conf')
+logger = logging.getLogger()
+
 
 class SpotReferenceData:
     resources_path = "resources/spots/"
@@ -17,7 +20,7 @@ class SpotReferenceData:
         pass
 
     def load_reference_file(self, filename):
-        logging.info("Loading spot reference data from file: %s" % filename)
+        logger.info("Loading spot reference data from file: %s" % filename)
         #TODO Use try with exception for wrong filename
         spots_file_path = self.resources_path + filename
         spots_file = self.read_file(spots_file_path)
@@ -32,15 +35,15 @@ class SpotReferenceData:
                 content = f.read()
             return content
         else:
-            logging.error("No spots file found with name %s" % spots_file_path)
+            logger.error("No spots file found with name %s" % spots_file_path)
 
     @staticmethod
     def load_json(spots_file):
-        logging.info("Loading json object ")
+        logger.debug("Loading json object ")
         try:
             return json.loads(spots_file)
         except ValueError:
-            logging.error("Failed to load JSON data. Value Error")
+            logger.error("Failed to load JSON data. Value Error")
 
 
     def get_spots(self, country="france"):
@@ -51,7 +54,7 @@ class SpotReferenceData:
         if country in self.spots_dict.keys():
             return [Spot(spot_json) for spot_json in self.spots_dict[country]]
         else:
-            logging.warning("Country not loaded in Spot Reference Data")
+            logger.warning("Country not loaded in Spot Reference Data")
             return None
 
     def get_spot_keys(self):
@@ -98,15 +101,6 @@ class Test(unittest.TestCase):
         pass
 
 
-    # def test_read_file(self):
-    #     self.fail()
-    #
-    # def test_load_json(self):
-    #     self.fail()
-    #
-    # def test_get_spots(self):
-    #     self.fail()
-    #
 
 if __name__ == '__main__':
     unittest.main()
