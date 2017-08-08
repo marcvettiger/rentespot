@@ -1,0 +1,842 @@
+[
+	{
+		"_id": 4643,
+		"name": "Agios DImitrios",
+		"description": "",
+		"lat": 37.8021,
+		"lon": 23.8571,
+		"url": "/Agios-DImitrios-Surf-Report/4643/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4608,
+		"name": "Agios Nicholas",
+		"description": "",
+		"lat": 36.8206,
+		"lon": 22.2868,
+		"url": "/Agios-Nicholas-Surf-Report/4608/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4610,
+		"name": "Agios Theologis",
+		"description": "",
+		"lat": 36.7227,
+		"lon": 26.9185,
+		"url": "/Agios-Theologis-Surf-Report/4610/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4496,
+		"name": "Agrili",
+		"description": "Left point reef break. Swell angle will be important for wave size with more westerly swells larger.",
+		"lat": 37.2154,
+		"lon": 21.5974,
+		"url": "/Agrili-Surf-Report/4496/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4676,
+		"name": "Almiros",
+		"description": "",
+		"lat": 35.1766,
+		"lon": 25.7102,
+		"url": "/Almiros-Surf-Report/4676/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4611,
+		"name": "Ammoudia",
+		"description": "",
+		"lat": 39.2398,
+		"lon": 20.48,
+		"url": "/Ammoudia-Surf-Report/4611/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4651,
+		"name": "Archaia",
+		"description": "",
+		"lat": 40.7783,
+		"lon": 23.8193,
+		"url": "/Archaia-Surf-Report/4651/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4671,
+		"name": "Arina Beach",
+		"description": "",
+		"lat": 35.3321,
+		"lon": 25.2377,
+		"url": "/Arina-Beach-Surf-Report/4671/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4510,
+		"name": "Arkoudi",
+		"description": "",
+		"lat": 37.847,
+		"lon": 21.1078,
+		"url": "/Arkoudi-Surf-Report/4510/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4509,
+		"name": "Asprovalta",
+		"description": "",
+		"lat": 40.7573,
+		"lon": 23.7491,
+		"url": "/Asprovalta-Surf-Report/4509/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4506,
+		"name": "Camp",
+		"description": "",
+		"lat": 38.3812,
+		"lon": 24.2049,
+		"url": "/Camp-Surf-Report/4506/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4475,
+		"name": "Falasarna",
+		"description": "Large reasonably consistent sand bottomed beach.",
+		"lat": 35.4925,
+		"lon": 23.58,
+		"url": "/Falasarna-Surf-Report/4475/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4495,
+		"name": "Fenekounta",
+		"description": "Swell window is narrow between the islands and our forecast will be optimistic for this spot on SW swells. ",
+		"lat": 36.8079,
+		"lon": 21.8075,
+		"url": "/Fenekounta-Surf-Report/4495/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4552,
+		"name": "Irakleidis",
+		"description": "",
+		"lat": 36.7775,
+		"lon": 27.0003,
+		"url": "/Irakleidis-Surf-Report/4552/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4474,
+		"name": "Kalo Nero",
+		"description": "",
+		"lat": 37.2953,
+		"lon": 21.6919,
+		"url": "/Kalo-Nero-Surf-Report/4474/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4551,
+		"name": "Kalyves",
+		"description": "",
+		"lat": 35.4522,
+		"lon": 24.178,
+		"url": "/Kalyves-Surf-Report/4551/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4499,
+		"name": "Kardamyli",
+		"description": "",
+		"lat": 36.8892,
+		"lon": 22.2317,
+		"url": "/Kardamyli-Surf-Report/4499/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4472,
+		"name": "Kastro",
+		"description": "",
+		"lat": 39.284,
+		"lon": 20.3964,
+		"url": "/Kastro-Surf-Report/4472/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4688,
+		"name": "Keratokampos",
+		"description": "",
+		"lat": 34.9984,
+		"lon": 25.3783,
+		"url": "/Keratokampos-Surf-Report/4688/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4550,
+		"name": "Kissamos",
+		"description": "",
+		"lat": 35.5009,
+		"lon": 23.6581,
+		"url": "/Kissamos-Surf-Report/4550/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4673,
+		"name": "Kokkinos Pyrgos",
+		"description": "",
+		"lat": 35.0798,
+		"lon": 24.7398,
+		"url": "/Kokkinos-Pyrgos-Surf-Report/4673/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4674,
+		"name": "Komos Beach",
+		"description": "",
+		"lat": 35.0092,
+		"lon": 24.7577,
+		"url": "/Komos-Beach-Surf-Report/4674/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4672,
+		"name": "Konaki Beach",
+		"description": "",
+		"lat": 35.332,
+		"lon": 25.2505,
+		"url": "/Konaki-Beach-Surf-Report/4672/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4473,
+		"name": "Lakouvardos",
+		"description": "",
+		"lat": 37.0904,
+		"lon": 21.582,
+		"url": "/Lakouvardos-Surf-Report/4473/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4498,
+		"name": "Lygia",
+		"description": "Relatively consistent beach and reef combination.",
+		"lat": 39.147,
+		"lon": 20.5731,
+		"url": "/Lygia-Surf-Report/4498/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4649,
+		"name": "Madonna Beach - Limnos",
+		"description": "",
+		"lat": 39.9906,
+		"lon": 25.2481,
+		"url": "/Madonna-Beach-Limnos-Surf-Report/4649/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4479,
+		"name": "Makry Gialos",
+		"description": "An easy paddle out from nearer the harbour with peaks along the beach. Surf on other beaches directly to the East too.",
+		"lat": 35.0393,
+		"lon": 25.9779,
+		"url": "/Makry-Gialos-Surf-Report/4479/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4508,
+		"name": "Marmari",
+		"description": "",
+		"lat": 36.4259,
+		"lon": 22.4759,
+		"url": "/Marmari-Surf-Report/4508/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4609,
+		"name": "Mavrovouni",
+		"description": "",
+		"lat": 36.7284,
+		"lon": 22.5533,
+		"url": "/Mavrovouni-Surf-Report/4609/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4505,
+		"name": "Merkourios",
+		"description": "",
+		"lat": 38.56,
+		"lon": 24.1717,
+		"url": "/Merkourios-Surf-Report/4505/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4487,
+		"name": "Messakti Beach - Ikaria",
+		"description": "",
+		"lat": 37.6304,
+		"lon": 26.0974,
+		"url": "/Messakti-Beach-Ikaria-Surf-Report/4487/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4497,
+		"name": "Methoni",
+		"description": "Fickle point with a window for West to North West swells.",
+		"lat": 36.8012,
+		"lon": 21.7383,
+		"url": "/Methoni-Surf-Report/4497/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4500,
+		"name": "Metochi",
+		"description": "",
+		"lat": 38.6539,
+		"lon": 23.9602,
+		"url": "/Metochi-Surf-Report/4500/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4607,
+		"name": "Oitylo",
+		"description": "",
+		"lat": 36.6967,
+		"lon": 22.3833,
+		"url": "/Oitylo-Surf-Report/4607/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4477,
+		"name": "Palaiochora",
+		"description": "",
+		"lat": 35.2324,
+		"lon": 23.6773,
+		"url": "/Palaiochora-Surf-Report/4477/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4481,
+		"name": "Petras",
+		"description": "Consistent weak windswell in summer from the dominant meltemi wind pattern.",
+		"lat": 35.1994,
+		"lon": 26.1229,
+		"url": "/Petras-Surf-Report/4481/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4554,
+		"name": "Pili",
+		"description": "",
+		"lat": 38.7686,
+		"lon": 23.5912,
+		"url": "/Pili-Surf-Report/4554/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4548,
+		"name": "Platanias",
+		"description": "",
+		"lat": 35.5217,
+		"lon": 23.9134,
+		"url": "/Platanias-Surf-Report/4548/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4476,
+		"name": "Preveli",
+		"description": "",
+		"lat": 35.1532,
+		"lon": 24.4778,
+		"url": "/Preveli-Surf-Report/4476/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4644,
+		"name": "Rafina Beach",
+		"description": "",
+		"lat": 38.0196,
+		"lon": 24.0131,
+		"url": "/Rafina-Beach-Surf-Report/4644/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4507,
+		"name": "Rizomilos",
+		"description": "",
+		"lat": 36.8776,
+		"lon": 21.9252,
+		"url": "/Rizomilos-Surf-Report/4507/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4503,
+		"name": "Sfinari",
+		"description": "",
+		"lat": 35.4217,
+		"lon": 23.5659,
+		"url": "/Sfinari-Surf-Report/4503/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4689,
+		"name": "Skaleta",
+		"description": "",
+		"lat": 35.3931,
+		"lon": 24.6098,
+		"url": "/Skaleta-Surf-Report/4689/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4478,
+		"name": "Stalibu",
+		"description": "Relatively consistent conditions  from the predominant onshore meltemi winds in summer but typically very small, shapeless wind swell due to the limited fetch.",
+		"lat": 35.2969,
+		"lon": 25.4247,
+		"url": "/Stalibu-Surf-Report/4478/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4549,
+		"name": "Strofi",
+		"description": "",
+		"lat": 35.5157,
+		"lon": 23.9452,
+		"url": "/Strofi-Surf-Report/4549/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4652,
+		"name": "Thanos Beach - Limnos",
+		"description": "",
+		"lat": 39.8384,
+		"lon": 25.0767,
+		"url": "/Thanos-Beach-Limnos-Surf-Report/4652/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4650,
+		"name": "The Bridge",
+		"description": "",
+		"lat": 40.7268,
+		"lon": 24.1007,
+		"url": "/The-Bridge-Surf-Report/4650/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4553,
+		"name": "Theologos",
+		"description": "",
+		"lat": 36.7133,
+		"lon": 26.9204,
+		"url": "/Theologos-Surf-Report/4553/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4501,
+		"name": "Tinos",
+		"description": "Consistent summer spot in the full fetch of the Meltemi wind.",
+		"lat": 37.6289,
+		"lon": 25.144,
+		"url": "/Tinos-Surf-Report/4501/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4642,
+		"name": "Varkiza Beach",
+		"description": "",
+		"lat": 37.819,
+		"lon": 23.8082,
+		"url": "/Varkiza-Beach-Surf-Report/4642/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4223,
+		"name": "Vouliagmeni",
+		"description": "We don\\&#039;t have any details about Vouliagmeni at the moment.",
+		"lat": 37.8129,
+		"lon": 23.7781,
+		"url": "/Vouliagmeni-Surf-Report/4223/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4687,
+		"name": "Voulisma",
+		"description": "",
+		"lat": 35.1264,
+		"lon": 25.7444,
+		"url": "/Voulisma-Surf-Report/4687/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4675,
+		"name": "Xerokampos",
+		"description": "",
+		"lat": 35.0353,
+		"lon": 26.2189,
+		"url": "/Xerokampos-Surf-Report/4675/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4502,
+		"name": "Xoreuto",
+		"description": "",
+		"lat": 39.453,
+		"lon": 23.1219,
+		"url": "/Xoreuto-Surf-Report/4502/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4494,
+		"name": "Zagka",
+		"description": "Beach break which can barrel if winds and swell align.",
+		"lat": 36.7827,
+		"lon": 21.9382,
+		"url": "/Zagka-Surf-Report/4494/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	},
+	{
+		"_id": 4480,
+		"name": "Zakros",
+		"description": "Extremely inconsistent spot with this whole coast shadowed from the dominant westerly swells.",
+		"lat": 35.0973,
+		"lon": 26.2635,
+		"url": "/Zakros-Surf-Report/4480/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 98
+		},
+		"country": {
+			"iso": "gr"
+		}
+	}
+]

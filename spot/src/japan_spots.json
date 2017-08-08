@@ -1,0 +1,1067 @@
+[
+	{
+		"_id": 606,
+		"name": "Aha Point",
+		"description": "",
+		"lat": 26.7396,
+		"lon": 128.321,
+		"url": "/Aha-Point-Surf-Report/606/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2776,
+		"name": "Aja",
+		"description": "",
+		"lat": 26.2596,
+		"lon": 127.678,
+		"url": "/Aja-Surf-Report/2776/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2539,
+		"name": "Azakou",
+		"description": "",
+		"lat": 30.6821,
+		"lon": 131.065,
+		"url": "/Azakou-Surf-Report/2539/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 4637,
+		"name": "Beach Rock",
+		"description": "",
+		"lat": 27.3427,
+		"lon": 128.5358,
+		"url": "/Beach-Rock-Surf-Report/4637/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2775,
+		"name": "Bowls",
+		"description": "",
+		"lat": 26.3179,
+		"lon": 127.749,
+		"url": "/Bowls-Surf-Report/2775/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 611,
+		"name": "Buma",
+		"description": "",
+		"lat": 26.6023,
+		"lon": 127.936,
+		"url": "/Buma-Surf-Report/611/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 3394,
+		"name": "Cape Toi",
+		"description": "",
+		"lat": 31.3642,
+		"lon": 131.352,
+		"url": "/Cape-Toi-Surf-Report/3394/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 608,
+		"name": "Castles",
+		"description": "",
+		"lat": 26.0794,
+		"lon": 127.663,
+		"url": "/Castles-Surf-Report/608/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 4636,
+		"name": "China Port",
+		"description": "",
+		"lat": 27.3301,
+		"lon": 128.5751,
+		"url": "/China-Port-Surf-Report/4636/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 597,
+		"name": "Choshi",
+		"description": "",
+		"lat": 35.7124,
+		"lon": 140.824,
+		"url": "/Choshi-Surf-Report/597/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 815,
+		"name": "Eguchi-hama ",
+		"description": "",
+		"lat": 31.6368,
+		"lon": 130.327,
+		"url": "/Eguchi-hama-Surf-Report/815/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 4638,
+		"name": "Furusato",
+		"description": "",
+		"lat": 27.3648,
+		"lon": 128.6367,
+		"url": "/Furusato-Surf-Report/4638/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 809,
+		"name": "Hamamatsu",
+		"description": "",
+		"lat": 34.6422,
+		"lon": 137.752,
+		"url": "/Hamamatsu-Surf-Report/809/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 599,
+		"name": "Hebara",
+		"description": "",
+		"lat": 35.1651,
+		"lon": 140.335,
+		"url": "/Hebara-Surf-Report/599/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 3989,
+		"name": "Hirano beach",
+		"description": "beach break",
+		"lat": 32.9608,
+		"lon": 132.995,
+		"url": "/Hirano-beach-Surf-Report/3989/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 3390,
+		"name": "Hotel-mae",
+		"description": "",
+		"lat": 30.3748,
+		"lon": 130.948,
+		"url": "/Hotel-mae-Surf-Report/3390/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2535,
+		"name": "Hungry",
+		"description": "",
+		"lat": 30.6403,
+		"lon": 131.062,
+		"url": "/Hungry-Surf-Report/2535/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 3392,
+		"name": "Ikei",
+		"description": "",
+		"lat": 26.4007,
+		"lon": 128.006,
+		"url": "/Ikei-Surf-Report/3392/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 604,
+		"name": "Ikumihama",
+		"description": "",
+		"lat": 33.527,
+		"lon": 134.285,
+		"url": "/Ikumihama-Surf-Report/604/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2543,
+		"name": "Injou",
+		"description": "",
+		"lat": 30.6091,
+		"lon": 131.054,
+		"url": "/Injou-Surf-Report/2543/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 810,
+		"name": "Irago",
+		"description": "",
+		"lat": 34.5699,
+		"lon": 137.027,
+		"url": "/Irago-Surf-Report/810/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 613,
+		"name": "Ishinamigawa",
+		"description": "",
+		"lat": 32.3259,
+		"lon": 131.608,
+		"url": "/Ishinamigawa-Surf-Report/613/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 603,
+		"name": "Kaifu River",
+		"description": "",
+		"lat": 33.5949,
+		"lon": 134.363,
+		"url": "/Kaifu-River-Surf-Report/603/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 600,
+		"name": "Kamogawa (Big Ben)",
+		"description": "",
+		"lat": 35.1104,
+		"lon": 140.115,
+		"url": "/Kamogawa-Big-Ben-Surf-Report/600/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 816,
+		"name": "Kanehama (Kana-hama)",
+		"description": "",
+		"lat": 30.6494,
+		"lon": 131.052,
+		"url": "/Kanehama-Kana-hama-Surf-Report/816/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 4014,
+		"name": "Kashima, Ibaraki",
+		"description": "Long straight beach break from Hasaki to Mito, with concrete jetties every few kilometers. Non-sheltered areas are best in a south swell.",
+		"lat": 35.9868,
+		"lon": 140.663,
+		"url": "/Kashima-Ibaraki-Surf-Report/4014/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 4015,
+		"name": "Katagai",
+		"description": " ",
+		"lat": 35.543,
+		"lon": 140.469,
+		"url": "/Katagai-Surf-Report/4015/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2541,
+		"name": "Kazamoto ",
+		"description": "",
+		"lat": 30.688,
+		"lon": 131.068,
+		"url": "/Kazamoto-Surf-Report/2541/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 614,
+		"name": "Kisakihama",
+		"description": "",
+		"lat": 31.8169,
+		"lon": 131.458,
+		"url": "/Kisakihama-Surf-Report/614/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 3393,
+		"name": "Ko Chan",
+		"description": "",
+		"lat": 26.8748,
+		"lon": 128.263,
+		"url": "/Ko-Chan-Surf-Report/3393/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 607,
+		"name": "Kudaka",
+		"description": "",
+		"lat": 26.1507,
+		"lon": 127.888,
+		"url": "/Kudaka-Surf-Report/607/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 1291,
+		"name": "Kugenuma Kaigan ",
+		"description": "Popular beachbreak",
+		"lat": 35.3153,
+		"lon": 139.47,
+		"url": "/Kugenuma-Kaigan-Surf-Report/1291/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 4639,
+		"name": "Kunigami",
+		"description": "",
+		"lat": 27.4407,
+		"lon": 128.709,
+		"url": "/Kunigami-Surf-Report/4639/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2773,
+		"name": "Maeda",
+		"description": "",
+		"lat": 26.4458,
+		"lon": 127.769,
+		"url": "/Maeda-Surf-Report/2773/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 610,
+		"name": "Mainside",
+		"description": "",
+		"lat": 26.4405,
+		"lon": 127.71,
+		"url": "/Mainside-Surf-Report/610/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2801,
+		"name": "Malibu",
+		"description": "",
+		"lat": 35.1198,
+		"lon": 140.153,
+		"url": "/Malibu-Surf-Report/2801/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2800,
+		"name": "Matsube",
+		"description": "",
+		"lat": 35.1189,
+		"lon": 140.139,
+		"url": "/Matsube-Surf-Report/2800/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2791,
+		"name": "Monobe",
+		"description": "",
+		"lat": 33.534,
+		"lon": 133.6851,
+		"url": "/Monobe-Surf-Report/2791/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 4004,
+		"name": "Mutsure",
+		"description": "Classic left hand point break. Breaks best from low to mid tide on a big Southerly swell.",
+		"lat": 34.6415,
+		"lon": 137.326,
+		"url": "/Mutsure-Surf-Report/4004/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 3384,
+		"name": "Nagahama",
+		"description": "",
+		"lat": 30.5451,
+		"lon": 130.929,
+		"url": "/Nagahama-Surf-Report/3384/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 3395,
+		"name": "Nagata",
+		"description": "",
+		"lat": 31.4082,
+		"lon": 131.235,
+		"url": "/Nagata-Surf-Report/3395/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2536,
+		"name": "Nakayama",
+		"description": "",
+		"lat": 30.528,
+		"lon": 130.99,
+		"url": "/Nakayama-Surf-Report/2536/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 602,
+		"name": "Niijima",
+		"description": "",
+		"lat": 34.36,
+		"lon": 139.28,
+		"url": "/Niijima-Surf-Report/602/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 605,
+		"name": "Niyodo",
+		"description": "",
+		"lat": 33.4544,
+		"lon": 133.4764,
+		"url": "/Niyodo-Surf-Report/605/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 612,
+		"name": "Okuragahama",
+		"description": "",
+		"lat": 32.3895,
+		"lon": 131.641,
+		"url": "/Okuragahama-Surf-Report/612/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 808,
+		"name": "Omaezaki",
+		"description": "",
+		"lat": 34.6016,
+		"lon": 138.192,
+		"url": "/Omaezaki-Surf-Report/808/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 4016,
+		"name": "Onjuku",
+		"description": "Beach break, best at lower tides.  Can get a good swell in late Aug / early September.  Normally busy in July and August",
+		"lat": 35.182,
+		"lon": 140.353,
+		"url": "/Onjuku-Surf-Report/4016/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 3396,
+		"name": "Osaki",
+		"description": "",
+		"lat": 33.3695,
+		"lon": 134.207,
+		"url": "/Osaki-Surf-Report/3396/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 3383,
+		"name": "Oshima",
+		"description": "",
+		"lat": 34.7667,
+		"lon": 139.349,
+		"url": "/Oshima-Surf-Report/3383/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 615,
+		"name": "Oura",
+		"description": "",
+		"lat": 31.6228,
+		"lon": 131.456,
+		"url": "/Oura-Surf-Report/615/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2533,
+		"name": "Rock",
+		"description": "",
+		"lat": 30.6477,
+		"lon": 131.055,
+		"url": "/Rock-Surf-Report/2533/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2802,
+		"name": "Shida",
+		"description": "",
+		"lat": 35.3304,
+		"lon": 140.399,
+		"url": "/Shida-Surf-Report/2802/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 807,
+		"name": "Shirahama",
+		"description": "",
+		"lat": 34.6919,
+		"lon": 138.977,
+		"url": "/Shirahama-Surf-Report/807/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2792,
+		"name": "Shishikui",
+		"description": "",
+		"lat": 33.5671,
+		"lon": 134.309,
+		"url": "/Shishikui-Surf-Report/2792/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 806,
+		"name": "Shonan",
+		"description": "",
+		"lat": 35.3129,
+		"lon": 139.4055,
+		"url": "/Shonan-Surf-Report/806/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2772,
+		"name": "Suicide Cliffs",
+		"description": "",
+		"lat": 26.0878,
+		"lon": 127.72,
+		"url": "/Suicide-Cliffs-Surf-Report/2772/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2547,
+		"name": "Sumiyoshi",
+		"description": "",
+		"lat": 30.6656,
+		"lon": 130.942,
+		"url": "/Sumiyoshi-Surf-Report/2547/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 1265,
+		"name": "Sunabe II",
+		"description": "Long lefts, can get crowded. ",
+		"lat": 26.3265,
+		"lon": 127.745,
+		"url": "/Sunabe-II-Surf-Report/1265/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 609,
+		"name": "Sunabe Seawall",
+		"description": "",
+		"lat": 26.3304,
+		"lon": 127.741,
+		"url": "/Sunabe-Seawall-Surf-Report/609/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 3391,
+		"name": "Takezaki",
+		"description": "",
+		"lat": 30.3743,
+		"lon": 130.935,
+		"url": "/Takezaki-Surf-Report/3391/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 4645,
+		"name": "Taraso",
+		"description": "",
+		"lat": 27.3843,
+		"lon": 128.6557,
+		"url": "/Taraso-Surf-Report/4645/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2793,
+		"name": "Teba",
+		"description": "",
+		"lat": 33.6343,
+		"lon": 134.427,
+		"url": "/Teba-Surf-Report/2793/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 598,
+		"name": "Torami",
+		"description": "",
+		"lat": 35.3478,
+		"lon": 140.402,
+		"url": "/Torami-Surf-Report/598/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 3387,
+		"name": "Toudai-shita",
+		"description": "",
+		"lat": 30.3989,
+		"lon": 130.974,
+		"url": "/Toudai-shita-Surf-Report/3387/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2774,
+		"name": "Turtles",
+		"description": "",
+		"lat": 26.361,
+		"lon": 127.738,
+		"url": "/Turtles-Surf-Report/2774/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2794,
+		"name": "Uchizuma",
+		"description": "",
+		"lat": 33.6545,
+		"lon": 134.402,
+		"url": "/Uchizuma-Surf-Report/2794/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 601,
+		"name": "Wada Rivermouth",
+		"description": "",
+		"lat": 35.0073,
+		"lon": 139.98,
+		"url": "/Wada-Rivermouth-Surf-Report/601/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 4641,
+		"name": "Wanjo Beach",
+		"description": "",
+		"lat": 27.4105,
+		"lon": 128.6332,
+		"url": "/Wanjo-Beach-Surf-Report/4641/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 3385,
+		"name": "Yakutsu",
+		"description": "",
+		"lat": 30.4983,
+		"lon": 130.9,
+		"url": "/Yakutsu-Surf-Report/3385/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2795,
+		"name": "Yasuda",
+		"description": "",
+		"lat": 33.4339,
+		"lon": 133.982,
+		"url": "/Yasuda-Surf-Report/2795/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	},
+	{
+		"_id": 2545,
+		"name": "Yokino",
+		"description": "",
+		"lat": 30.6977,
+		"lon": 130.965,
+		"url": "/Yokino-Surf-Report/2545/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 61
+		},
+		"country": {
+			"iso": "jp"
+		}
+	}
+]

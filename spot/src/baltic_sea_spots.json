@@ -1,0 +1,272 @@
+[
+	{
+		"_id": 4566,
+		"name": "Chałupy",
+		"description": "A popular spot with left waves breaking off the jetties along the nearby coast.",
+		"lat": 54.7733,
+		"lon": 18.4771,
+		"url": "/Chaupy-Surf-Report/4566/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "pl"
+		}
+	},
+	{
+		"_id": 4463,
+		"name": "Dabki",
+		"description": "",
+		"lat": 54.3796,
+		"lon": 16.3171,
+		"url": "/Dabki-Surf-Report/4463/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "pl"
+		}
+	},
+	{
+		"_id": 4565,
+		"name": "Faleza",
+		"description": "Beachbreak with sand/stone bottom, works well with west and north swells combined with south winds.",
+		"lat": 54.8345,
+		"lon": 18.3299,
+		"url": "/Faleza-Surf-Report/4565/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "pl"
+		}
+	},
+	{
+		"_id": 4710,
+		"name": "Górki Zachodnie",
+		"description": "",
+		"lat": 54.3715,
+		"lon": 18.7704,
+		"url": "/Gorki-Zachodnie-Surf-Report/4710/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "pl"
+		}
+	},
+	{
+		"_id": 4462,
+		"name": "Leba",
+		"description": "",
+		"lat": 54.767,
+		"lon": 17.5441,
+		"url": "/Leba-Surf-Report/4462/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "pl"
+		}
+	},
+	{
+		"_id": 4414,
+		"name": "Liepāja",
+		"description": "",
+		"lat": 56.5579,
+		"lon": 20.9999,
+		"url": "/Liepja-Surf-Report/4414/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "lv"
+		}
+	},
+	{
+		"_id": 4426,
+		"name": "Melnrage",
+		"description": "",
+		"lat": 55.7307,
+		"lon": 21.0842,
+		"url": "/Melnrage-Surf-Report/4426/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "lt"
+		}
+	},
+	{
+		"_id": 4417,
+		"name": "Nida",
+		"description": "",
+		"lat": 55.307,
+		"lon": 20.9767,
+		"url": "/Nida-Surf-Report/4417/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "lt"
+		}
+	},
+	{
+		"_id": 4416,
+		"name": "Pape",
+		"description": "",
+		"lat": 56.156,
+		"lon": 21.0223,
+		"url": "/Pape-Surf-Report/4416/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "lv"
+		}
+	},
+	{
+		"_id": 4413,
+		"name": "Pavilosta",
+		"description": "",
+		"lat": 56.893,
+		"lon": 21.1773,
+		"url": "/Pavilosta-Surf-Report/4413/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "lv"
+		}
+	},
+	{
+		"_id": 4569,
+		"name": "Piaski",
+		"description": "Average beach break that can handle south east winds.",
+		"lat": 54.441,
+		"lon": 19.6022,
+		"url": "/Piaski-Surf-Report/4569/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "pl"
+		}
+	},
+	{
+		"_id": 4427,
+		"name": "Preila",
+		"description": "",
+		"lat": 55.3778,
+		"lon": 21.0306,
+		"url": "/Preila-Surf-Report/4427/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "lt"
+		}
+	},
+	{
+		"_id": 4418,
+		"name": "Ristna",
+		"description": "",
+		"lat": 58.9371,
+		"lon": 22.0502,
+		"url": "/Ristna-Surf-Report/4418/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "ee"
+		}
+	},
+	{
+		"_id": 4567,
+		"name": "Sobieszewo",
+		"description": "Rarely surfed but nice beach break with possible shelter form east winds.",
+		"lat": 54.3474,
+		"lon": 18.9168,
+		"url": "/Sobieszewo-Surf-Report/4567/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "pl"
+		}
+	},
+	{
+		"_id": 4568,
+		"name": "Sztutowo",
+		"description": "Average beach break that can handle some west wind.",
+		"lat": 54.351,
+		"lon": 19.1698,
+		"url": "/Sztutowo-Surf-Report/4568/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "pl"
+		}
+	},
+	{
+		"_id": 4415,
+		"name": "Užava",
+		"description": "",
+		"lat": 57.2476,
+		"lon": 21.4121,
+		"url": "/Uava-Surf-Report/4415/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "lv"
+		}
+	},
+	{
+		"_id": 4428,
+		"name": "Vääna-Jõesuu",
+		"description": "",
+		"lat": 59.4248,
+		"lon": 24.3402,
+		"url": "/Vaana-Joesuu-Surf-Report/4428/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "ee"
+		}
+	},
+	{
+		"_id": 4464,
+		"name": "Władysławowo",
+		"description": "",
+		"lat": 54.7886,
+		"lon": 18.432,
+		"url": "/Wadysawowo-Surf-Report/4464/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 104
+		},
+		"country": {
+			"iso": "pl"
+		}
+	}
+]

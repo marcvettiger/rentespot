@@ -1,0 +1,2538 @@
+[
+    {
+    "_id": 3503,
+    "name": "Algajola",
+    "description": "",
+    "lat": 42.6102,
+    "lon": 8.8712,
+    "url": "\/Algajola-Surf-Report\/3503\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1521,
+    "name": "Anse de Pen-hat",
+    "description": "",
+    "lat": 48.2737,
+    "lon": -4.6215,
+    "url": "\/Anse-de-Pen-hat-Surf-Report\/1521\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 73,
+    "name": "Baie des Tr\u00e9pass\u00e9s (Lescoff)",
+    "description": "Covering all the breaks in the area but assuming a South East wind is offshore - a variety of spots face in different directions here so offshore winds should be acheivable - adjust the forecast accordingly.",
+    "lat": 48.0465,
+    "lon": -4.71,
+    "url": "\/Baie-des-Trepasses-Lescoff-Surf-Report\/73\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3523,
+    "name": "Bandol",
+    "description": "",
+    "lat": 43.1334,
+    "lon": 5.748,
+    "url": "\/Bandol-Surf-Report\/3523\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3495,
+    "name": "Beauvallon",
+    "description": "",
+    "lat": 43.2908,
+    "lon": 6.6112,
+    "url": "\/Beauvallon-Surf-Report\/3495\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1543,
+    "name": "Belharra Perdun   ",
+    "description": "",
+    "lat": 43.4066,
+    "lon": -1.7148,
+    "url": "\/Belharra-Perdun-Surf-Report\/1543\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 62,
+    "name": "Biarritz Grande Plage",
+    "description": "Covering all the main town breaks and surrounding area.",
+    "lat": 43.4859,
+    "lon": -1.5596,
+    "url": "\/Biarritz-Grande-Plage-Surf-Report\/62\/",
+    "hasNetcam": true,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1540,
+    "name": "Bidart",
+    "description": "",
+    "lat": 43.4366,
+    "lon": -1.5981,
+    "url": "\/Bidart-Surf-Report\/1540\/",
+    "hasNetcam": true,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 65,
+    "name": "Biscarrosse-Plage",
+    "description": "Covering all breaks north to La Salie and south to Mimizan Plage.",
+    "lat": 44.4461,
+    "lon": -1.258,
+    "url": "\/Biscarrosse-Plage-Surf-Report\/65\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 74,
+    "name": "Blancs-Sablons",
+    "description": "Covering a range of breaks near Brest and assuming that a south east wind is offshore (adjust for other spots)",
+    "lat": 48.3704,
+    "lon": -4.7663,
+    "url": "\/Blancs-Sablons-Surf-Report\/74\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1591,
+    "name": "Boutrouilles",
+    "description": "",
+    "lat": 48.6589,
+    "lon": -4.4022,
+    "url": "\/Boutrouilles-Surf-Report\/1591\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3985,
+    "name": "Calais",
+    "description": "",
+    "lat": 50.9787,
+    "lon": 1.8958,
+    "url": "\/Calais-Surf-Report\/3985\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3511,
+    "name": "Canet Plage",
+    "description": "",
+    "lat": 42.6991,
+    "lon": 3.0403,
+    "url": "\/Canet-Plage-Surf-Report\/3511\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3397,
+    "name": "Cannes",
+    "description": "",
+    "lat": 43.5357,
+    "lon": 7.0409,
+    "url": "\/Cannes-Surf-Report\/3397\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 885,
+    "name": "Cap de L&#039;Homy",
+    "description": "",
+    "lat": 44.0387,
+    "lon": -1.3431,
+    "url": "\/Cap-de-LHomy-Surf-Report\/885\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1523,
+    "name": "Cap de la Ch\u00e8vre",
+    "description": "",
+    "lat": 48.1669,
+    "lon": -4.5577,
+    "url": "\/Cap-de-la-Chevre-Surf-Report\/1523\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1579,
+    "name": "Cap Fr\u00e9hel",
+    "description": "",
+    "lat": 48.6575,
+    "lon": -2.3614,
+    "url": "\/Cap-Frehel-Surf-Report\/1579\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3990,
+    "name": "Cap Gris-Nez",
+    "description": "",
+    "lat": 50.8708,
+    "lon": 1.5906,
+    "url": "\/Cap-Gris-Nez-Surf-Report\/3990\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3522,
+    "name": "Cap Saint-Louis",
+    "description": "",
+    "lat": 43.1772,
+    "lon": 5.6735,
+    "url": "\/Cap-Saint-Louis-Surf-Report\/3522\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 883,
+    "name": "Capbreton (La Piste\/VVF)",
+    "description": "We don&#039;t have any details about Capbreton (La Piste\/VVF) at the moment.",
+    "lat": 43.6445,
+    "lon": -1.4474,
+    "url": "\/Capbreton-La-Piste-VVF-Surf-Report\/883\/",
+    "hasNetcam": true,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3506,
+    "name": "Capo di Feno",
+    "description": "",
+    "lat": 41.9351,
+    "lon": 8.622,
+    "url": "\/Capo-di-Feno-Surf-Report\/3506\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1535,
+    "name": "Carcans",
+    "description": "",
+    "lat": 45.0845,
+    "lon": -1.195,
+    "url": "\/Carcans-Surf-Report\/1535\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3514,
+    "name": "Carnon",
+    "description": "",
+    "lat": 43.5402,
+    "lon": 3.9725,
+    "url": "\/Carnon-Surf-Report\/3514\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1175,
+    "name": "Casernes ",
+    "description": "Classic Landes beachbreak, all tides depending on the sand",
+    "lat": 43.7232,
+    "lon": -1.4326,
+    "url": "\/Casernes-Surf-Report\/1175\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3520,
+    "name": "Cassis",
+    "description": "",
+    "lat": 43.2122,
+    "lon": 5.5368,
+    "url": "\/Cassis-Surf-Report\/3520\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 68,
+    "name": "Chassiron",
+    "description": "Covering all spots on the Ile D&#039;Oleron but assuming a North East wind is offshore (adjust for other spots). Also good for the Cote Sauvage to the south and spots around La Rochelle",
+    "lat": 46.0479,
+    "lon": -1.4186,
+    "url": "\/Chassiron-Surf-Report\/68\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1542,
+    "name": "Ciboure Socoa",
+    "description": "",
+    "lat": 43.3941,
+    "lon": -1.6794,
+    "url": "\/Ciboure-Socoa-Surf-Report\/1542\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1592,
+    "name": "Collignon",
+    "description": "",
+    "lat": 49.658,
+    "lon": -1.5691,
+    "url": "\/Collignon-Surf-Report\/1592\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 884,
+    "name": "Contis-Plage",
+    "description": "",
+    "lat": 44.0927,
+    "lon": -1.3281,
+    "url": "\/Contis-Plage-Surf-Report\/884\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 894,
+    "name": "Cote des Basques",
+    "description": "",
+    "lat": 43.4802,
+    "lon": -1.5678,
+    "url": "\/Cote-des-Basques-Surf-Report\/894\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1519,
+    "name": "Dalbosc ",
+    "description": "",
+    "lat": 48.341,
+    "lon": -4.6333,
+    "url": "\/Dalbosc-Surf-Report\/1519\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1548,
+    "name": "Dielette",
+    "description": "",
+    "lat": 49.5602,
+    "lon": -1.8618,
+    "url": "\/Dielette-Surf-Report\/1548\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1511,
+    "name": "Erretegia",
+    "description": "",
+    "lat": 43.4471,
+    "lon": -1.5904,
+    "url": "\/Erretegia-Surf-Report\/1511\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1539,
+    "name": "Erromardie",
+    "description": "",
+    "lat": 43.4107,
+    "lon": -1.6387,
+    "url": "\/Erromardie-Surf-Report\/1539\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1561,
+    "name": "Etel",
+    "description": "",
+    "lat": 47.6398,
+    "lon": -3.2115,
+    "url": "\/Etel-Surf-Report\/1561\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 80,
+    "name": "Etretat",
+    "description": "Covering Etretat and other breaks in the area. ",
+    "lat": 49.7075,
+    "lon": 0.1984,
+    "url": "\/Etretat-Surf-Report\/80\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3500,
+    "name": "Eze",
+    "description": "",
+    "lat": 43.7216,
+    "lon": 7.3582,
+    "url": "\/Eze-Surf-Report\/3500\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3501,
+    "name": "Farinole",
+    "description": "",
+    "lat": 42.7362,
+    "lon": 9.3439,
+    "url": "\/Farinole-Surf-Report\/3501\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3509,
+    "name": "Figari",
+    "description": "",
+    "lat": 41.4492,
+    "lon": 9.0687,
+    "url": "\/Figari-Surf-Report\/3509\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1170,
+    "name": "Fouesnou",
+    "description": "Fouesnou",
+    "lat": 47.9691,
+    "lon": -4.4455,
+    "url": "\/Fouesnou-Surf-Report\/1170\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3496,
+    "name": "Galiote",
+    "description": "",
+    "lat": 43.3936,
+    "lon": 6.7317,
+    "url": "\/Galiote-Surf-Report\/3496\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1560,
+    "name": "Gavres",
+    "description": "",
+    "lat": 47.6937,
+    "lon": -3.3247,
+    "url": "\/Gavres-Surf-Report\/1560\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3494,
+    "name": "Gigaro",
+    "description": "",
+    "lat": 43.1832,
+    "lon": 6.5997,
+    "url": "\/Gigaro-Surf-Report\/3494\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 4409,
+    "name": "Gohaud   ",
+    "description": "",
+    "lat": 47.1612,
+    "lon": -2.1733,
+    "url": "\/Gohaud-Surf-Report\/4409\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 4319,
+    "name": "Gouillaud",
+    "description": "One main reef break, breaking left and right. Best wind \r\ndirection is North-East. Wave direction is West. Best \r\ntime to go surfing is low-tide till low-tide + 3hours.\r\n\r\nDepending on the wind direction Gouillaud can be both a \r\nwindsurf\/kitesurf spot or a surf \/ SUP spot.\r\nBest wind direction for Windsurf\/kite is West\/North-West.\r\n\r\nBE CAREFUL WITH THE ROCKS. On low-tide you can walk 200 meters west to go to the water without having to walk through the rocks.",
+    "lat": 46.1673,
+    "lon": -1.3742,
+    "url": "\/Gouillaud-Surf-Report\/4319\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3398,
+    "name": "Gruissan",
+    "description": "",
+    "lat": 43.0967,
+    "lon": 3.1158,
+    "url": "\/Gruissan-Surf-Report\/3398\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 896,
+    "name": "Guethary",
+    "description": "",
+    "lat": 43.4225,
+    "lon": -1.6197,
+    "url": "\/Guethary-Surf-Report\/896\/",
+    "hasNetcam": true,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1512,
+    "name": "Guethary (Avalanche) ",
+    "description": "",
+    "lat": 43.4272,
+    "lon": -1.6124,
+    "url": "\/Guethary-Avalanche-Surf-Report\/1512\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 71,
+    "name": "Guidel (Les Kaolins)",
+    "description": "Covering all breaks in the area north and west of Lorlent.",
+    "lat": 47.7237,
+    "lon": -3.4931,
+    "url": "\/Guidel-Les-Kaolins-Surf-Report\/71\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1530,
+    "name": "Gwendrez ",
+    "description": "",
+    "lat": 47.9909,
+    "lon": -4.4818,
+    "url": "\/Gwendrez-Surf-Report\/1530\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1594,
+    "name": "Hatainville ",
+    "description": "",
+    "lat": 49.4016,
+    "lon": -1.8267,
+    "url": "\/Hatainville-Surf-Report\/1594\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1581,
+    "name": "Hendaye Plage",
+    "description": "",
+    "lat": 43.3773,
+    "lon": -1.765,
+    "url": "\/Hendaye-Plage-Surf-Report\/1581\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 61,
+    "name": "Hossegor (La Graviere)",
+    "description": "",
+    "lat": 43.6663,
+    "lon": -1.4437,
+    "url": "\/Hossegor-La-Graviere-Surf-Report\/61\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 891,
+    "name": "Hossegor (La Nord)",
+    "description": "Covering all the main breaks ",
+    "lat": 43.6652,
+    "lon": -1.4459,
+    "url": "\/Hossegor-La-Nord-Surf-Report\/891\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1531,
+    "name": "Hossegor (La Sud)",
+    "description": "",
+    "lat": 43.6601,
+    "lon": -1.4468,
+    "url": "\/Hossegor-La-Sud-Surf-Report\/1531\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1229,
+    "name": "Hourtin",
+    "description": "Beachbreak crowded on the weekends.\r\n",
+    "lat": 45.2226,
+    "lon": -1.1756,
+    "url": "\/Hourtin-Surf-Report\/1229\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 895,
+    "name": "Ilbarritz",
+    "description": "Covers Marbella, Bora Bora and Edouard VII",
+    "lat": 43.4601,
+    "lon": -1.5811,
+    "url": "\/Ilbarritz-Surf-Report\/895\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1586,
+    "name": "Kerloch",
+    "description": "",
+    "lat": 48.2499,
+    "lon": -4.5573,
+    "url": "\/Kerloch-Surf-Report\/1586\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1563,
+    "name": "L&#039;Amelie",
+    "description": "",
+    "lat": 45.4848,
+    "lon": -1.1536,
+    "url": "\/LAmelie-Surf-Report\/1563\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1593,
+    "name": "L&#039;Anse du Brick",
+    "description": "",
+    "lat": 49.6689,
+    "lon": -1.4875,
+    "url": "\/LAnse-du-Brick-Surf-Report\/1593\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 69,
+    "name": "L&#039;Aubraie",
+    "description": "Covering all breaks in the area based on a North East wind blowing offshore (adjust for other spots).",
+    "lat": 46.5138,
+    "lon": -1.8224,
+    "url": "\/LAubraie-Surf-Report\/69\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 4410,
+    "name": "L&#039;Ermitage",
+    "description": "",
+    "lat": 47.2053,
+    "lon": -2.1638,
+    "url": "\/LErmitage-Surf-Report\/4410\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1528,
+    "name": "L&#039;Estacade",
+    "description": "",
+    "lat": 43.6535,
+    "lon": -1.4466,
+    "url": "\/LEstacade-Surf-Report\/1528\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1517,
+    "name": "L&#039;Horizon",
+    "description": "",
+    "lat": 44.6384,
+    "lon": -1.2648,
+    "url": "\/LHorizon-Surf-Report\/1517\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1553,
+    "name": "La Barre",
+    "description": "",
+    "lat": 43.5268,
+    "lon": -1.5263,
+    "url": "\/La-Barre-Surf-Report\/1553\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3521,
+    "name": "La Ciotat",
+    "description": "",
+    "lat": 43.18,
+    "lon": 5.6202,
+    "url": "\/La-Ciotat-Surf-Report\/3521\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3517,
+    "name": "La Corniche",
+    "description": "",
+    "lat": 43.3277,
+    "lon": 5.1175,
+    "url": "\/La-Corniche-Surf-Report\/3517\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1556,
+    "name": "La C\u00f4te Sauvage",
+    "description": "",
+    "lat": 47.5161,
+    "lon": -3.1537,
+    "url": "\/La-Cote-Sauvage-Surf-Report\/1556\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 4404,
+    "name": "La C\u00f4te Sauvage",
+    "description": "",
+    "lat": 45.7116,
+    "lon": -1.2404,
+    "url": "\/La-Cote-Sauvage-Surf-Report\/4404\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3524,
+    "name": "La Coudouli\u00e8re",
+    "description": "",
+    "lat": 43.0941,
+    "lon": 5.8051,
+    "url": "\/La-Coudouliere-Surf-Report\/3524\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 4411,
+    "name": "La Courance",
+    "description": "",
+    "lat": 47.2424,
+    "lon": -2.3156,
+    "url": "\/La-Courance-Surf-Report\/4411\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3516,
+    "name": "La Couronne",
+    "description": "",
+    "lat": 43.3258,
+    "lon": 5.0574,
+    "url": "\/La-Couronne-Surf-Report\/3516\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1577,
+    "name": "La Gamelle  ",
+    "description": "",
+    "lat": 48.0083,
+    "lon": -4.5476,
+    "url": "\/La-Gamelle-Surf-Report\/1577\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1537,
+    "name": "La Jenny",
+    "description": "",
+    "lat": 44.8572,
+    "lon": -1.2266,
+    "url": "\/La-Jenny-Surf-Report\/1537\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1510,
+    "name": "La Madrague",
+    "description": "",
+    "lat": 43.512,
+    "lon": -1.5366,
+    "url": "\/La-Madrague-Surf-Report\/1510\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1546,
+    "name": "La Mauvaise Gr\u00e8ve",
+    "description": "",
+    "lat": 48.6934,
+    "lon": -4.0873,
+    "url": "\/La-Mauvaise-Greve-Surf-Report\/1546\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1524,
+    "name": "La Palue ",
+    "description": "",
+    "lat": 48.204,
+    "lon": -4.5578,
+    "url": "\/La-Palue-Surf-Report\/1524\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1582,
+    "name": "La Pointe",
+    "description": "",
+    "lat": 44.6209,
+    "lon": -1.2456,
+    "url": "\/La-Pointe-Surf-Report\/1582\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 4403,
+    "name": "La Salie",
+    "description": "",
+    "lat": 44.5149,
+    "lon": -1.2579,
+    "url": "\/La-Salie-Surf-Report\/4403\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1571,
+    "name": "La Sauzaie ",
+    "description": "",
+    "lat": 46.6362,
+    "lon": -1.8931,
+    "url": "\/La-Sauzaie-Surf-Report\/1571\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 72,
+    "name": "La Torche ",
+    "description": "This forecast covers all spots in the Penmarch \/ Ploneour Lavern area.",
+    "lat": 47.8408,
+    "lon": -4.3512,
+    "url": "\/La-Torche-Surf-Report\/72\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3497,
+    "name": "La Tour",
+    "description": "",
+    "lat": 43.5435,
+    "lon": 7.13,
+    "url": "\/La-Tour-Surf-Report\/3497\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1555,
+    "name": "Labenne-Ocean",
+    "description": "",
+    "lat": 43.5997,
+    "lon": -1.4751,
+    "url": "\/Labenne-Ocean-Surf-Report\/1555\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 66,
+    "name": "Lacanau",
+    "description": "Covering all the breaks in the area - including Carcans to the North and La Porge etc. south to Cap Ferret",
+    "lat": 45.0023,
+    "lon": -1.2049,
+    "url": "\/Lacanau-Surf-Report\/66\/",
+    "hasNetcam": true,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 897,
+    "name": "Lafitenia",
+    "description": "",
+    "lat": 43.4164,
+    "lon": -1.6294,
+    "url": "\/Lafitenia-Surf-Report\/897\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 75,
+    "name": "Lampaul Ploudalmezeau",
+    "description": "Covering a range of spots but giving wind reports based on the south east offshore required at Penfoul.",
+    "lat": 48.57,
+    "lon": -4.65,
+    "url": "\/Lampaul-Ploudalmezeau-Surf-Report\/75\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1506,
+    "name": "Le Club ",
+    "description": "",
+    "lat": 43.4994,
+    "lon": -1.5454,
+    "url": "\/Le-Club-Surf-Report\/1506\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1538,
+    "name": "Le Crohot des Cavales",
+    "description": "",
+    "lat": 45.1147,
+    "lon": -1.1902,
+    "url": "\/Le-Crohot-des-Cavales-Surf-Report\/1538\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 76,
+    "name": "Le Dossen ",
+    "description": "Covering the main Le Dossen beach break and a number of decent reef breaks in the area.",
+    "lat": 48.6984,
+    "lon": -4.0683,
+    "url": "\/Le-Dossen-Surf-Report\/76\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1585,
+    "name": "Le Gouerou  ",
+    "description": "",
+    "lat": 48.4574,
+    "lon": -4.7731,
+    "url": "\/Le-Gouerou-Surf-Report\/1585\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1584,
+    "name": "Le Grand Crohot",
+    "description": "",
+    "lat": 44.7999,
+    "lon": -1.2378,
+    "url": "\/Le-Grand-Crohot-Surf-Report\/1584\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1565,
+    "name": "Le Gurp",
+    "description": "",
+    "lat": 45.435,
+    "lon": -1.1557,
+    "url": "\/Le-Gurp-Surf-Report\/1565\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1558,
+    "name": "Le K\u00e9rou",
+    "description": "",
+    "lat": 47.7675,
+    "lon": -3.5624,
+    "url": "\/Le-Kerou-Surf-Report\/1558\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 4320,
+    "name": "Le Lizay",
+    "description": "Works best from 3 hours before high tide to high tide. Best swell \r\ndirection : West \/ North-West. Best wind directions : South East, South, South West. ",
+    "lat": 46.2564,
+    "lon": -1.5163,
+    "url": "\/Le-Lizay-Surf-Report\/4320\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1529,
+    "name": "Le Penon",
+    "description": "",
+    "lat": 43.7098,
+    "lon": -1.438,
+    "url": "\/Le-Penon-Surf-Report\/1529\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1520,
+    "name": "Le Petit Minou ",
+    "description": "",
+    "lat": 48.3378,
+    "lon": -4.6177,
+    "url": "\/Le-Petit-Minou-Surf-Report\/1520\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1562,
+    "name": "Le Pin Sec",
+    "description": "",
+    "lat": 45.2678,
+    "lon": -1.1697,
+    "url": "\/Le-Pin-Sec-Surf-Report\/1562\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1536,
+    "name": "Le Porge",
+    "description": "",
+    "lat": 44.8944,
+    "lon": -1.221,
+    "url": "\/Le-Porge-Surf-Report\/1536\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3519,
+    "name": "Le Prado",
+    "description": "",
+    "lat": 43.2561,
+    "lon": 5.3718,
+    "url": "\/Le-Prado-Surf-Report\/3519\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1527,
+    "name": "Le Prevent",
+    "description": "",
+    "lat": 43.6508,
+    "lon": -1.4468,
+    "url": "\/Le-Prevent-Surf-Report\/1527\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3518,
+    "name": "Le Rouet",
+    "description": "",
+    "lat": 43.3334,
+    "lon": 5.1753,
+    "url": "\/Le-Rouet-Surf-Report\/3518\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 79,
+    "name": "Le Rozel",
+    "description": "Covering the area from Cap De La Hague south to Cap de Careteret and good for spots near Cherbourg (but assumes an east wind is offshore).",
+    "lat": 49.4812,
+    "lon": -1.8474,
+    "url": "\/Le-Rozel-Surf-Report\/79\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3508,
+    "name": "Le Ruppione",
+    "description": "",
+    "lat": 41.8323,
+    "lon": 8.783,
+    "url": "\/Le-Ruppione-Surf-Report\/3508\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1526,
+    "name": "Le Santocha",
+    "description": "",
+    "lat": 43.6479,
+    "lon": -1.447,
+    "url": "\/Le-Santocha-Surf-Report\/1526\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1583,
+    "name": "Le Truc Vert",
+    "description": "",
+    "lat": 44.7142,
+    "lon": -1.2546,
+    "url": "\/Le-Truc-Vert-Surf-Report\/1583\/",
+    "hasNetcam": true,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1564,
+    "name": "Le Verdon",
+    "description": "",
+    "lat": 45.5708,
+    "lon": -1.0614,
+    "url": "\/Le-Verdon-Surf-Report\/1564\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1507,
+    "name": "Le VVF   ",
+    "description": "",
+    "lat": 43.4953,
+    "lon": -1.5485,
+    "url": "\/Le-VVF-Surf-Report\/1507\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1513,
+    "name": "Les Alcyons",
+    "description": "",
+    "lat": 43.4269,
+    "lon": -1.6111,
+    "url": "\/Les-Alcyons-Surf-Report\/1513\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 4405,
+    "name": "Les Allassins",
+    "description": "",
+    "lat": 45.8714,
+    "lon": -1.266,
+    "url": "\/Les-Allassins-Surf-Report\/4405\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 4646,
+    "name": "Les Amiets",
+    "description": "",
+    "lat": 48.6958,
+    "lon": -4.1406,
+    "url": "\/Les-Amiets-Surf-Report\/4646\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1549,
+    "name": "Les Boulassiers ",
+    "description": "",
+    "lat": 45.9992,
+    "lon": -1.3121,
+    "url": "\/Les-Boulassiers-Surf-Report\/1549\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1532,
+    "name": "Les Bourdaines",
+    "description": "",
+    "lat": 43.6976,
+    "lon": -1.4409,
+    "url": "\/Les-Bourdaines-Surf-Report\/1532\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 892,
+    "name": "Les Cavaliers",
+    "description": "",
+    "lat": 43.5233,
+    "lon": -1.5273,
+    "url": "\/Les-Cavaliers-Surf-Report\/892\/",
+    "hasNetcam": true,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1573,
+    "name": "Les Conches\/Bud Bud",
+    "description": "",
+    "lat": 46.3858,
+    "lon": -1.4946,
+    "url": "\/Les-Conches-Bud-Bud-Surf-Report\/1573\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1509,
+    "name": "Les Corsaires  ",
+    "description": "",
+    "lat": 43.5072,
+    "lon": -1.5398,
+    "url": "\/Les-Corsaires-Surf-Report\/1509\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 889,
+    "name": "Les Culs Nus",
+    "description": "",
+    "lat": 43.6798,
+    "lon": -1.4426,
+    "url": "\/Les-Culs-Nus-Surf-Report\/889\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 70,
+    "name": "Les Donnants",
+    "description": "Covering Quiberon and also breaks near Port de Donnant and south of Lorlent",
+    "lat": 47.3258,
+    "lon": -3.2409,
+    "url": "\/Les-Donnants-Surf-Report\/70\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1570,
+    "name": "Les Dunes ",
+    "description": "",
+    "lat": 46.607,
+    "lon": -1.8562,
+    "url": "\/Les-Dunes-Surf-Report\/1570\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 890,
+    "name": "Les Estagnots",
+    "description": "",
+    "lat": 43.6865,
+    "lon": -1.4419,
+    "url": "\/Les-Estagnots-Surf-Report\/890\/",
+    "hasNetcam": true,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1550,
+    "name": "Les Huttes ",
+    "description": "",
+    "lat": 46.0116,
+    "lon": -1.4009,
+    "url": "\/Les-Huttes-Surf-Report\/1550\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1578,
+    "name": "Les Longchamps",
+    "description": "",
+    "lat": 48.6392,
+    "lon": -2.1215,
+    "url": "\/Les-Longchamps-Surf-Report\/1578\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1171,
+    "name": "Les Roches Blanches (Pointe Leyd\u00e9)",
+    "description": "Les Roches Blanches",
+    "lat": 48.1094,
+    "lon": -4.3619,
+    "url": "\/Les-Roches-Blanches-Pointe-Leyde-Surf-Report\/1171\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 4677,
+    "name": "Les Sables-d&#039;Olonne",
+    "description": "",
+    "lat": 46.4926,
+    "lon": -1.7861,
+    "url": "\/Les-Sables-dOlonne-Surf-Report\/4677\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3525,
+    "name": "Les Sablettes",
+    "description": "",
+    "lat": 43.0767,
+    "lon": 5.893,
+    "url": "\/Les-Sablettes-Surf-Report\/3525\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1534,
+    "name": "Lesconil     ",
+    "description": "",
+    "lat": 47.7961,
+    "lon": -4.2079,
+    "url": "\/Lesconil-Surf-Report\/1534\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1525,
+    "name": "Lespecier",
+    "description": "",
+    "lat": 44.1653,
+    "lon": -1.3101,
+    "url": "\/Lespecier-Surf-Report\/1525\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3504,
+    "name": "Lumio",
+    "description": "",
+    "lat": 42.5697,
+    "lon": 8.8039,
+    "url": "\/Lumio-Surf-Report\/3504\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1508,
+    "name": "Marinella ",
+    "description": "",
+    "lat": 43.5056,
+    "lon": -1.5406,
+    "url": "\/Marinella-Surf-Report\/1508\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3669,
+    "name": "Messanges",
+    "description": "French beachbreak, with two main peaks one, left hander, slighty south, and a left and right peak, just slighty north, both work from mid to high on a NW swell, holds up to max 1.5 meters and barrels hard.",
+    "lat": 43.8162,
+    "lon": -1.4057,
+    "url": "\/Messanges-Surf-Report\/3669\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 63,
+    "name": "Mimizan-Plage",
+    "description": "Covering all the breaks in the area. Because this stretch of coast shows little variation this will be good for breaks some way south and north.",
+    "lat": 44.2161,
+    "lon": -1.2997,
+    "url": "\/Mimizan-Plage-Surf-Report\/63\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 887,
+    "name": "Moliets Plage",
+    "description": "",
+    "lat": 43.8568,
+    "lon": -1.3949,
+    "url": "\/Moliets-Plage-Surf-Report\/887\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1566,
+    "name": "Montalivet",
+    "description": "",
+    "lat": 45.379,
+    "lon": -1.1623,
+    "url": "\/Montalivet-Surf-Report\/1566\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 4406,
+    "name": "Noirmoutier",
+    "description": "",
+    "lat": 46.9438,
+    "lon": -2.1895,
+    "url": "\/Noirmoutier-Surf-Report\/4406\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 888,
+    "name": "Ondres Plage",
+    "description": "",
+    "lat": 43.5776,
+    "lon": -1.4893,
+    "url": "\/Ondres-Plage-Surf-Report\/888\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3502,
+    "name": "Ostriconi",
+    "description": "",
+    "lat": 42.6605,
+    "lon": 9.0586,
+    "url": "\/Ostriconi-Surf-Report\/3502\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3513,
+    "name": "Palavas-les-Flots",
+    "description": "",
+    "lat": 43.52,
+    "lon": 3.9257,
+    "url": "\/Palavas-les-Flots-Surf-Report\/3513\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1515,
+    "name": "Parlementia",
+    "description": "",
+    "lat": 43.4299,
+    "lon": -1.609,
+    "url": "\/Parlementia-Surf-Report\/1515\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1545,
+    "name": "Penfoul ",
+    "description": "",
+    "lat": 48.5338,
+    "lon": -4.7538,
+    "url": "\/Penfoul-Surf-Report\/1545\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 4412,
+    "name": "Penthi\u00e8vre",
+    "description": "",
+    "lat": 47.584,
+    "lon": -3.1466,
+    "url": "\/Penthievre-Surf-Report\/4412\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1590,
+    "name": "Petites Dalles",
+    "description": "",
+    "lat": 49.8256,
+    "lon": 0.5232,
+    "url": "\/Petites-Dalles-Surf-Report\/1590\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3526,
+    "name": "Pin Rolland",
+    "description": "",
+    "lat": 43.0706,
+    "lon": 5.9066,
+    "url": "\/Pin-Rolland-Surf-Report\/3526\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3510,
+    "name": "Pinarellu",
+    "description": "",
+    "lat": 41.6888,
+    "lon": 9.3923,
+    "url": "\/Pinarellu-Surf-Report\/3510\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1557,
+    "name": "Plage du Loch ",
+    "description": "",
+    "lat": 47.7531,
+    "lon": -3.5143,
+    "url": "\/Plage-du-Loch-Surf-Report\/1557\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 78,
+    "name": "Plage du Sillon (St Malo)",
+    "description": "Covering all breaks in the St Malo to Cap Frehel area (assuming a south east wind is offshore - adjust for other spots)",
+    "lat": 48.6623,
+    "lon": -2.0037,
+    "url": "\/Plage-du-Sillon-St-Malo-Surf-Report\/78\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1587,
+    "name": "Pointe de Dinan ",
+    "description": "",
+    "lat": 48.2303,
+    "lon": -4.5693,
+    "url": "\/Pointe-de-Dinan-Surf-Report\/1587\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1576,
+    "name": "Pointe de Lervily",
+    "description": "",
+    "lat": 47.9996,
+    "lon": -4.5586,
+    "url": "\/Pointe-de-Lervily-Surf-Report\/1576\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1567,
+    "name": "Pontaillac ",
+    "description": "",
+    "lat": 45.6255,
+    "lon": -1.0532,
+    "url": "\/Pontaillac-Surf-Report\/1567\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 126,
+    "name": "Pors Ar Villec (Locquirec)",
+    "description": "",
+    "lat": 48.6977,
+    "lon": -3.6499,
+    "url": "\/Pors-Ar-Villec-Locquirec-Surf-Report\/126\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1522,
+    "name": "Pors-ar-Vag",
+    "description": "",
+    "lat": 48.1705,
+    "lon": -4.2969,
+    "url": "\/Pors-ar-Vag-Surf-Report\/1522\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1518,
+    "name": "Porsmilin ",
+    "description": "",
+    "lat": 48.3536,
+    "lon": -4.6794,
+    "url": "\/Porsmilin-Surf-Report\/1518\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1574,
+    "name": "Porz Th\u00e9olen",
+    "description": "",
+    "lat": 48.0623,
+    "lon": -4.6736,
+    "url": "\/Porz-Theolen-Surf-Report\/1574\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1533,
+    "name": "Porzcarn",
+    "description": "",
+    "lat": 47.8322,
+    "lon": -4.3509,
+    "url": "\/Porzcarn-Surf-Report\/1533\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3507,
+    "name": "Route des Sanguinaires",
+    "description": "",
+    "lat": 41.9068,
+    "lon": 8.7054,
+    "url": "\/Route-des-Sanguinaires-Surf-Report\/3507\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 893,
+    "name": "Sables d&#039;Or",
+    "description": "",
+    "lat": 43.5025,
+    "lon": -1.5433,
+    "url": "\/Sables-dOr-Surf-Report\/893\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3505,
+    "name": "Sagone",
+    "description": "",
+    "lat": 42.1144,
+    "lon": 8.6905,
+    "url": "\/Sagone-Surf-Report\/3505\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1572,
+    "name": "Saint Gilles Croix de Vie",
+    "description": "",
+    "lat": 46.6899,
+    "lon": -1.9471,
+    "url": "\/Saint-Gilles-Croix-de-Vie-Surf-Report\/1572\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1575,
+    "name": "Saint Tugen",
+    "description": "",
+    "lat": 48.013,
+    "lon": -4.597,
+    "url": "\/Saint-Tugen-Surf-Report\/1575\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1569,
+    "name": "Saint-Nicolas",
+    "description": "",
+    "lat": 46.4358,
+    "lon": -1.6957,
+    "url": "\/Saint-Nicolas-Surf-Report\/1569\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1580,
+    "name": "Sainte Adresse",
+    "description": "",
+    "lat": 49.4964,
+    "lon": 0.0903,
+    "url": "\/Sainte-Adresse-Surf-Report\/1580\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1541,
+    "name": "Sainte-Barbe",
+    "description": "",
+    "lat": 43.399,
+    "lon": -1.667,
+    "url": "\/Sainte-Barbe-Surf-Report\/1541\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3515,
+    "name": "Saintes-Maries",
+    "description": "",
+    "lat": 43.4477,
+    "lon": 4.4258,
+    "url": "\/Saintes-Maries-Surf-Report\/3515\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1568,
+    "name": "Sauveterre ",
+    "description": "",
+    "lat": 46.5494,
+    "lon": -1.834,
+    "url": "\/Sauveterre-Surf-Report\/1568\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3512,
+    "name": "S\u00e8te",
+    "description": "",
+    "lat": 43.3872,
+    "lon": 3.6552,
+    "url": "\/Sete-Surf-Report\/3512\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1547,
+    "name": "Siouville",
+    "description": "",
+    "lat": 49.5719,
+    "lon": -1.8448,
+    "url": "\/Siouville-Surf-Report\/1547\/",
+    "hasNetcam": true,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 67,
+    "name": "Soulac",
+    "description": "With the main beaches sheltered from offshore sandbars this forecast will show the outside swell not the amount hitting the beach. This makes Soulac a good spot when the rest of the coast is closing out in a heavy swell.",
+    "lat": 45.5204,
+    "lon": -1.1268,
+    "url": "\/Soulac-Surf-Report\/67\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 4407,
+    "name": "St jean de monts",
+    "description": "",
+    "lat": 46.7738,
+    "lon": -2.0606,
+    "url": "\/St-jean-de-monts-Surf-Report\/4407\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1544,
+    "name": "St Pabu ",
+    "description": "",
+    "lat": 48.5788,
+    "lon": -4.6316,
+    "url": "\/St-Pabu-Surf-Report\/1544\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1552,
+    "name": "St-Denis ",
+    "description": "",
+    "lat": 46.0394,
+    "lon": -1.3685,
+    "url": "\/St-Denis-Surf-Report\/1552\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 886,
+    "name": "St-Girons Plage",
+    "description": "",
+    "lat": 43.9542,
+    "lon": -1.3661,
+    "url": "\/St-Girons-Plage-Surf-Report\/886\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3498,
+    "name": "St-Laurent du Var",
+    "description": "",
+    "lat": 43.6533,
+    "lon": 7.1998,
+    "url": "\/St-Laurent-du-Var-Surf-Report\/3498\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1551,
+    "name": "St-Trojan",
+    "description": "",
+    "lat": 45.843,
+    "lon": -1.2576,
+    "url": "\/St-Trojan-Surf-Report\/1551\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 4261,
+    "name": "Surtainville",
+    "description": "Beach break, can hold bigger swells and is best from mid to high tide.",
+    "lat": 49.457,
+    "lon": -1.8331,
+    "url": "\/Surtainville-Surf-Report\/4261\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1554,
+    "name": "Tarnos",
+    "description": "",
+    "lat": 43.5594,
+    "lon": -1.5024,
+    "url": "\/Tarnos-Surf-Report\/1554\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1559,
+    "name": "Toulhars ",
+    "description": "",
+    "lat": 47.7074,
+    "lon": -3.3776,
+    "url": "\/Toulhars-Surf-Report\/1559\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 77,
+    "name": "Trestaou  ",
+    "description": "Covering Tregastel Plage and Beg Leguer a little way south. Also good for other spots in the area.",
+    "lat": 48.818,
+    "lon": -3.4508,
+    "url": "\/Trestaou-Surf-Report\/77\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1176,
+    "name": "Trouville",
+    "description": "Little longboard spot in Normandy...",
+    "lat": 49.3734,
+    "lon": 0.0724,
+    "url": "\/Trouville-Surf-Report\/1176\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1588,
+    "name": "Vaucottes",
+    "description": "",
+    "lat": 49.7382,
+    "lon": 0.2901,
+    "url": "\/Vaucottes-Surf-Report\/1588\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 64,
+    "name": "Vieux Boucau",
+    "description": "Covering breaks in the area including Moliets Plage.",
+    "lat": 43.7934,
+    "lon": -1.4172,
+    "url": "\/Vieux-Boucau-Surf-Report\/64\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3499,
+    "name": "Villefranche Sur Mer",
+    "description": "",
+    "lat": 43.6996,
+    "lon": 7.3207,
+    "url": "\/Villefranche-Sur-Mer-Surf-Report\/3499\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 3991,
+    "name": "Wimereux",
+    "description": "",
+    "lat": 50.7646,
+    "lon": 1.5945,
+    "url": "\/Wimereux-Surf-Report\/3991\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+}, {
+    "_id": 1589,
+    "name": "Yport",
+    "description": "",
+    "lat": 49.7415,
+    "lon": 0.3063,
+    "url": "\/Yport-Surf-Report\/1589\/",
+    "hasNetcam": false,
+    "region": {
+        "_id": 2
+    },
+    "country": {
+        "iso": "fr"
+    }
+
+}
+]

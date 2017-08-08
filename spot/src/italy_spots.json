@@ -1,0 +1,1577 @@
+[
+	{
+		"_id": 3594,
+		"name": "Acquabella",
+		"description": "",
+		"lat": 42.3309,
+		"lon": 14.4252,
+		"url": "/Acquabella-Surf-Report/3594/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3576,
+		"name": "Adria",
+		"description": "",
+		"lat": 44.5612,
+		"lon": 12.2831,
+		"url": "/Adria-Surf-Report/3576/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3608,
+		"name": "Alimini - La Nave",
+		"description": "",
+		"lat": 40.2125,
+		"lon": 18.4599,
+		"url": "/Alimini-La-Nave-Surf-Report/3608/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3586,
+		"name": "Ansedonia - La Sinistra",
+		"description": "",
+		"lat": 42.415,
+		"lon": 11.2781,
+		"url": "/Ansedonia-La-Sinistra-Surf-Report/3586/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3568,
+		"name": "Arenzano",
+		"description": "",
+		"lat": 44.3898,
+		"lon": 8.6676,
+		"url": "/Arenzano-Surf-Report/3568/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3619,
+		"name": "Artiglieria",
+		"description": "",
+		"lat": 41.3037,
+		"lon": 13.0053,
+		"url": "/Artiglieria-Surf-Report/3619/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 4511,
+		"name": "Baia Arcile",
+		"description": "",
+		"lat": 37.2918,
+		"lon": 15.1599,
+		"url": "/Baia-Arcile-Surf-Report/4511/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3599,
+		"name": "Banzai",
+		"description": "",
+		"lat": 42.0348,
+		"lon": 11.92,
+		"url": "/Banzai-Surf-Report/3599/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3585,
+		"name": "Baratti - Il Dado",
+		"description": "",
+		"lat": 42.9937,
+		"lon": 10.5002,
+		"url": "/Baratti-Il-Dado-Surf-Report/3585/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3564,
+		"name": "Bistrot",
+		"description": "",
+		"lat": 43.825,
+		"lon": 7.8425,
+		"url": "/Bistrot-Surf-Report/3564/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3654,
+		"name": "Bova",
+		"description": "",
+		"lat": 37.9259,
+		"lon": 15.887,
+		"url": "/Bova-Surf-Report/3654/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3631,
+		"name": "Buggerru - Il Molo",
+		"description": "",
+		"lat": 39.4042,
+		"lon": 8.4005,
+		"url": "/Buggerru-Il-Molo-Surf-Report/3631/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3628,
+		"name": "Capo Mannu",
+		"description": "",
+		"lat": 40.0292,
+		"lon": 8.3828,
+		"url": "/Capo-Mannu-Surf-Report/3628/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3569,
+		"name": "Capo Marina",
+		"description": "",
+		"lat": 44.3906,
+		"lon": 8.9561,
+		"url": "/Capo-Marina-Surf-Report/3569/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3610,
+		"name": "Capo Torre Cavallo",
+		"description": "",
+		"lat": 40.64,
+		"lon": 18.0187,
+		"url": "/Capo-Torre-Cavallo-Surf-Report/3610/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3604,
+		"name": "Capolinea",
+		"description": "",
+		"lat": 40.81,
+		"lon": 14.0435,
+		"url": "/Capolinea-Surf-Report/3604/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3650,
+		"name": "Catania - La Playa",
+		"description": "",
+		"lat": 37.4432,
+		"lon": 15.0891,
+		"url": "/Catania-La-Playa-Surf-Report/3650/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3635,
+		"name": "Chia - Il Pontile",
+		"description": "",
+		"lat": 38.8938,
+		"lon": 8.8801,
+		"url": "/Chia-Il-Pontile-Surf-Report/3635/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3645,
+		"name": "Ciammarita",
+		"description": "",
+		"lat": 38.0739,
+		"lon": 13.0538,
+		"url": "/Ciammarita-Surf-Report/3645/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3657,
+		"name": "Condojanni",
+		"description": "",
+		"lat": 38.1869,
+		"lon": 16.2226,
+		"url": "/Condojanni-Surf-Report/3657/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3587,
+		"name": "Elba Island - Laconella",
+		"description": "",
+		"lat": 42.7587,
+		"lon": 10.3007,
+		"url": "/Elba-Island-Laconella-Surf-Report/3587/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3588,
+		"name": "Elba Island - Margidore",
+		"description": "",
+		"lat": 42.7568,
+		"lon": 10.3116,
+		"url": "/Elba-Island-Margidore-Surf-Report/3588/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3570,
+		"name": "Entella",
+		"description": "",
+		"lat": 44.3094,
+		"lon": 9.3298,
+		"url": "/Entella-Surf-Report/3570/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3646,
+		"name": "Faro",
+		"description": "",
+		"lat": 37.5655,
+		"lon": 12.6629,
+		"url": "/Faro-Surf-Report/3646/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3589,
+		"name": "Fiorenzuola",
+		"description": "",
+		"lat": 43.9378,
+		"lon": 12.8649,
+		"url": "/Fiorenzuola-Surf-Report/3589/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3580,
+		"name": "Forte Dei Marmi - Pontile",
+		"description": "",
+		"lat": 43.9565,
+		"lon": 10.1648,
+		"url": "/Forte-Dei-Marmi-Pontile-Surf-Report/3580/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3583,
+		"name": "Garagolo",
+		"description": "",
+		"lat": 43.3976,
+		"lon": 10.4247,
+		"url": "/Garagolo-Surf-Report/3583/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3651,
+		"name": "Giardini Naxos",
+		"description": "",
+		"lat": 37.8206,
+		"lon": 15.2766,
+		"url": "/Giardini-Naxos-Surf-Report/3651/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3632,
+		"name": "Goroneddu",
+		"description": "",
+		"lat": 39.2521,
+		"lon": 8.3974,
+		"url": "/Goroneddu-Surf-Report/3632/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3598,
+		"name": "Il Bunker",
+		"description": "",
+		"lat": 42.039,
+		"lon": 11.9133,
+		"url": "/Il-Bunker-Surf-Report/3598/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3616,
+		"name": "Il Castello",
+		"description": "",
+		"lat": 42.0167,
+		"lon": 11.9561,
+		"url": "/Il-Castello-Surf-Report/3616/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3642,
+		"name": "Il Moletto",
+		"description": "",
+		"lat": 38.2058,
+		"lon": 13.3288,
+		"url": "/Il-Moletto-Surf-Report/3642/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3590,
+		"name": "Il Molo",
+		"description": "",
+		"lat": 43.5654,
+		"lon": 13.5904,
+		"url": "/Il-Molo-Surf-Report/3590/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3607,
+		"name": "Il Parcheggio",
+		"description": "",
+		"lat": 40.3219,
+		"lon": 17.4526,
+		"url": "/Il-Parcheggio-Surf-Report/3607/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3593,
+		"name": "Il Pescatore",
+		"description": "",
+		"lat": 42.9602,
+		"lon": 13.8854,
+		"url": "/Il-Pescatore-Surf-Report/3593/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3596,
+		"name": "Il Porto",
+		"description": "",
+		"lat": 42.0287,
+		"lon": 11.8355,
+		"url": "/Il-Porto-Surf-Report/3596/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3648,
+		"name": "Il Reef",
+		"description": "",
+		"lat": 37.2643,
+		"lon": 13.5756,
+		"url": "/Il-Reef-Surf-Report/3648/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 4492,
+		"name": "Il Reef Dell&#039;Isola",
+		"description": "Sand bottomed right point break.",
+		"lat": 36.6511,
+		"lon": 15.0759,
+		"url": "/Il-Reef-DellIsola-Surf-Report/4492/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3592,
+		"name": "Il Sasso",
+		"description": "",
+		"lat": 43.5248,
+		"lon": 13.6248,
+		"url": "/Il-Sasso-Surf-Report/3592/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3578,
+		"name": "Il Trabucco",
+		"description": "",
+		"lat": 43.9771,
+		"lon": 10.1398,
+		"url": "/Il-Trabucco-Surf-Report/3578/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3605,
+		"name": "Irno",
+		"description": "",
+		"lat": 40.672,
+		"lon": 14.7743,
+		"url": "/Irno-Surf-Report/3605/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3643,
+		"name": "Isola delle Femmine",
+		"description": "",
+		"lat": 38.1924,
+		"lon": 13.2414,
+		"url": "/Isola-delle-Femmine-Surf-Report/3643/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3620,
+		"name": "L&#039;Ideale",
+		"description": "",
+		"lat": 42.0768,
+		"lon": 11.8067,
+		"url": "/LIdeale-Surf-Report/3620/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3618,
+		"name": "La Chiesa",
+		"description": "",
+		"lat": 41.4557,
+		"lon": 12.6675,
+		"url": "/La-Chiesa-Surf-Report/3618/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3591,
+		"name": "La Nave",
+		"description": "",
+		"lat": 43.5644,
+		"lon": 13.5904,
+		"url": "/La-Nave-Surf-Report/3591/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3597,
+		"name": "La Roccetta",
+		"description": "",
+		"lat": 42.0288,
+		"lon": 11.8392,
+		"url": "/La-Roccetta-Surf-Report/3597/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 4690,
+		"name": "La Rotonda",
+		"description": "",
+		"lat": 44.0385,
+		"lon": 10.0284,
+		"url": "/La-Rotonda-Surf-Report/4690/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3625,
+		"name": "La Speranza",
+		"description": "",
+		"lat": 40.4956,
+		"lon": 8.3684,
+		"url": "/La-Speranza-Surf-Report/3625/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3653,
+		"name": "La Spiaggia",
+		"description": "",
+		"lat": 38.7143,
+		"lon": 15.9712,
+		"url": "/La-Spiaggia-Surf-Report/3653/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3577,
+		"name": "Lamone",
+		"description": "",
+		"lat": 44.5262,
+		"lon": 12.2836,
+		"url": "/Lamone-Surf-Report/3577/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3606,
+		"name": "Le Dune",
+		"description": "",
+		"lat": 40.061,
+		"lon": 15.279,
+		"url": "/Le-Dune-Surf-Report/3606/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3655,
+		"name": "Le Serre",
+		"description": "",
+		"lat": 37.9215,
+		"lon": 16.041,
+		"url": "/Le-Serre-Surf-Report/3655/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3572,
+		"name": "Lerici - La Venere",
+		"description": "",
+		"lat": 44.0815,
+		"lon": 9.9056,
+		"url": "/Lerici-La-Venere-Surf-Report/3572/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3571,
+		"name": "Levanto",
+		"description": "",
+		"lat": 44.1694,
+		"lon": 9.6073,
+		"url": "/Levanto-Surf-Report/3571/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3600,
+		"name": "Lido di Ostia",
+		"description": "",
+		"lat": 41.7256,
+		"lon": 12.278,
+		"url": "/Lido-di-Ostia-Surf-Report/3600/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3601,
+		"name": "Lido Garda",
+		"description": "",
+		"lat": 41.4651,
+		"lon": 12.6088,
+		"url": "/Lido-Garda-Surf-Report/3601/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3584,
+		"name": "Lillatro",
+		"description": "",
+		"lat": 43.383,
+		"lon": 10.4297,
+		"url": "/Lillatro-Surf-Report/3584/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3581,
+		"name": "Livorno - Bagni Fiume",
+		"description": "",
+		"lat": 43.5194,
+		"lon": 10.3105,
+		"url": "/Livorno-Bagni-Fiume-Surf-Report/3581/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3582,
+		"name": "Livorno - Il Sale",
+		"description": "",
+		"lat": 43.4983,
+		"lon": 10.3197,
+		"url": "/Livorno-Il-Sale-Surf-Report/3582/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 4537,
+		"name": "Livorno - Tre Ponti",
+		"description": "",
+		"lat": 43.5092,
+		"lon": 10.3177,
+		"url": "/Livorno-Tre-Ponti-Surf-Report/4537/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 4707,
+		"name": "Lo Scoglio",
+		"description": "",
+		"lat": 39.3074,
+		"lon": 16.0458,
+		"url": "/Lo-Scoglio-Surf-Report/4707/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3640,
+		"name": "Lungomare",
+		"description": "",
+		"lat": 38.0371,
+		"lon": 14.0175,
+		"url": "/Lungomare-Surf-Report/3640/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3644,
+		"name": "Magaggiari",
+		"description": "",
+		"lat": 38.1606,
+		"lon": 13.0836,
+		"url": "/Magaggiari-Surf-Report/3644/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3633,
+		"name": "Maresciallo",
+		"description": "",
+		"lat": 39.1109,
+		"lon": 8.3649,
+		"url": "/Maresciallo-Surf-Report/3633/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3649,
+		"name": "Marina di Modica",
+		"description": "",
+		"lat": 36.7105,
+		"lon": 14.7755,
+		"url": "/Marina-di-Modica-Surf-Report/3649/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3575,
+		"name": "Marina Di Ravenna - La Diga",
+		"description": "",
+		"lat": 44.4849,
+		"lon": 12.2902,
+		"url": "/Marina-Di-Ravenna-La-Diga-Surf-Report/3575/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3617,
+		"name": "Marinaretti",
+		"description": "",
+		"lat": 41.4439,
+		"lon": 12.6288,
+		"url": "/Marinaretti-Surf-Report/3617/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3622,
+		"name": "Marinedda",
+		"description": "",
+		"lat": 41.0165,
+		"lon": 8.8849,
+		"url": "/Marinedda-Surf-Report/3622/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3612,
+		"name": "Melma",
+		"description": "",
+		"lat": 41.217,
+		"lon": 16.5753,
+		"url": "/Melma-Surf-Report/3612/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3629,
+		"name": "Mini Capo",
+		"description": "",
+		"lat": 40.0288,
+		"lon": 8.392,
+		"url": "/Mini-Capo-Surf-Report/3629/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3565,
+		"name": "Molo",
+		"description": "",
+		"lat": 44.0076,
+		"lon": 8.1759,
+		"url": "/Molo-Surf-Report/3565/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 4621,
+		"name": "Pilune",
+		"description": "",
+		"lat": 38.77,
+		"lon": 16.5709,
+		"url": "/Pilune-Surf-Report/4621/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3634,
+		"name": "Pipeline",
+		"description": "",
+		"lat": 38.8801,
+		"lon": 8.8608,
+		"url": "/Pipeline-Surf-Report/3634/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3630,
+		"name": "Piscinas",
+		"description": "",
+		"lat": 39.547,
+		"lon": 8.4507,
+		"url": "/Piscinas-Surf-Report/3630/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3637,
+		"name": "Poetto",
+		"description": "",
+		"lat": 39.2016,
+		"lon": 9.168,
+		"url": "/Poetto-Surf-Report/3637/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3652,
+		"name": "Ponte Di Ferro",
+		"description": "",
+		"lat": 39.3918,
+		"lon": 16.0175,
+		"url": "/Ponte-Di-Ferro-Surf-Report/3652/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3574,
+		"name": "Pontile",
+		"description": "",
+		"lat": 45.6664,
+		"lon": 13.1147,
+		"url": "/Pontile-Surf-Report/3574/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 4626,
+		"name": "Porto di Andora",
+		"description": "",
+		"lat": 43.9495,
+		"lon": 8.1512,
+		"url": "/Porto-di-Andora-Surf-Report/4626/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3624,
+		"name": "Porto Ferro",
+		"description": "",
+		"lat": 40.6835,
+		"lon": 8.2025,
+		"url": "/Porto-Ferro-Surf-Report/3624/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3639,
+		"name": "Porto Giunco",
+		"description": "",
+		"lat": 39.1233,
+		"lon": 9.5274,
+		"url": "/Porto-Giunco-Surf-Report/3639/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 4491,
+		"name": "Portopalo",
+		"description": "A  left point with a rocky bottom and not a comfortable wave for beginners. Heavy take off and occasional tube depending on the swell direction. Like any point break it&#039;s a fine balance between too much easterly direction meaning small swell reaching the point and too much south turning it into a closeout. \r\n",
+		"lat": 36.6669,
+		"lon": 15.1291,
+		"url": "/Portopalo-Surf-Report/4491/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3573,
+		"name": "Punta Sabbioni",
+		"description": "",
+		"lat": 45.4242,
+		"lon": 12.4362,
+		"url": "/Punta-Sabbioni-Surf-Report/3573/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3638,
+		"name": "Racca Point",
+		"description": "",
+		"lat": 39.2046,
+		"lon": 9.3124,
+		"url": "/Racca-Point-Surf-Report/3638/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3621,
+		"name": "Rena Majore",
+		"description": "",
+		"lat": 41.1729,
+		"lon": 9.1682,
+		"url": "/Rena-Majore-Surf-Report/3621/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3615,
+		"name": "Ristorante",
+		"description": "",
+		"lat": 42.0375,
+		"lon": 11.9161,
+		"url": "/Ristorante-Surf-Report/3615/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3626,
+		"name": "S&#039; Archittu",
+		"description": "",
+		"lat": 40.0888,
+		"lon": 8.4893,
+		"url": "/S-Archittu-Surf-Report/3626/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3627,
+		"name": "Sa Mesa Longa",
+		"description": "",
+		"lat": 40.0469,
+		"lon": 8.3962,
+		"url": "/Sa-Mesa-Longa-Surf-Report/3627/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 4708,
+		"name": "Sabbiedoro",
+		"description": "",
+		"lat": 39.6622,
+		"lon": 15.8334,
+		"url": "/Sabbiedoro-Surf-Report/4708/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3647,
+		"name": "San Marco, Ciminiera",
+		"description": "",
+		"lat": 37.4967,
+		"lon": 13.0453,
+		"url": "/San-Marco-Ciminiera-Surf-Report/3647/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3563,
+		"name": "San Remo - Tre Ponti",
+		"description": "",
+		"lat": 43.8216,
+		"lon": 7.8163,
+		"url": "/San-Remo-Tre-Ponti-Surf-Report/3563/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3602,
+		"name": "Santa Agostino",
+		"description": "",
+		"lat": 41.2266,
+		"lon": 13.5019,
+		"url": "/Santa-Agostino-Surf-Report/3602/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3641,
+		"name": "Santa Lucia",
+		"description": "",
+		"lat": 38.0329,
+		"lon": 14.0023,
+		"url": "/Santa-Lucia-Surf-Report/3641/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3603,
+		"name": "Serapo",
+		"description": "",
+		"lat": 41.2094,
+		"lon": 13.5644,
+		"url": "/Serapo-Surf-Report/3603/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3623,
+		"name": "Silver Rock",
+		"description": "",
+		"lat": 40.7503,
+		"lon": 8.1539,
+		"url": "/Silver-Rock-Surf-Report/3623/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3955,
+		"name": "Siracusa South",
+		"description": "one of the best zones of the island, runs from the city of Siracusa till the southeast corner of Sicily. it works fall, winter and spring. features lefts and rights, from experienced tubing to beginners: coves, beachbreaks, points, and several rocky reefs. the waters are very deep right off the shore and the waves may achieve notable power. swell window goes from SSW to NNE. best winds are W, NW and N, but there are spots that can work also on SW and NE. normally patterns creating waves are lows that may track (in any direction) the libian sea, the ionian sea, untill even the area south of Crete, or that may be on Greece, less often there may be a cold front coming from the Atlantic that may turn into a strong N wind on the ionian sea. these storms may produce anything from a one day groundswell to windswell. winds known as grecale-NE and scirocco-SE are the most know to create good surf.\\\\\\\\r\\\\\\\\nAlong the east cost of Sicily this is by far the best area, it would be a crime to be mentioning others and not this area.",
+		"lat": 37.0047,
+		"lon": 15.2868,
+		"url": "/Siracusa-South-Surf-Report/3955/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3656,
+		"name": "Spartivento",
+		"description": "",
+		"lat": 37.9637,
+		"lon": 16.1048,
+		"url": "/Spartivento-Surf-Report/3656/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3636,
+		"name": "Su Conventeddu",
+		"description": "",
+		"lat": 38.9959,
+		"lon": 9.02,
+		"url": "/Su-Conventeddu-Surf-Report/3636/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3579,
+		"name": "Tito Del Molo",
+		"description": "",
+		"lat": 43.8637,
+		"lon": 10.2385,
+		"url": "/Tito-Del-Molo-Surf-Report/3579/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3611,
+		"name": "Tombino",
+		"description": "",
+		"lat": 41.1123,
+		"lon": 16.9203,
+		"url": "/Tombino-Surf-Report/3611/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3992,
+		"name": "Torre Archirafi",
+		"description": "Classic right. Rock bottom. It works up 5 feet. Not crowded.",
+		"lat": 37.7139,
+		"lon": 15.2181,
+		"url": "/Torre-Archirafi-Surf-Report/3992/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3609,
+		"name": "Torre Dell&#039;Orso",
+		"description": "",
+		"lat": 40.374,
+		"lon": 18.3161,
+		"url": "/Torre-DellOrso-Surf-Report/3609/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 4706,
+		"name": "Torre Spaccata",
+		"description": "",
+		"lat": 39.9535,
+		"lon": 16.6241,
+		"url": "/Torre-Spaccata-Surf-Report/4706/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3613,
+		"name": "Trabucco",
+		"description": "",
+		"lat": 42.0068,
+		"lon": 14.9975,
+		"url": "/Trabucco-Surf-Report/3613/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3567,
+		"name": "Varazze",
+		"description": "",
+		"lat": 44.3574,
+		"lon": 8.577,
+		"url": "/Varazze-Surf-Report/3567/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	},
+	{
+		"_id": 3595,
+		"name": "Vasto",
+		"description": "",
+		"lat": 42.1751,
+		"lon": 14.7065,
+		"url": "/Vasto-Surf-Report/3595/",
+		"hasNetcam": false,
+		"region": {
+			"_id": 89
+		},
+		"country": {
+			"iso": "it"
+		}
+	}
+]

@@ -2,6 +2,7 @@ import logging
 import logging.config
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+import pandas
 
 logging.config.fileConfig('cfg/logger.conf')
 logger = logging.getLogger()
@@ -24,6 +25,7 @@ def new(spreadsheet_name):
 
 def append(spreadsheet_name, sheet_data):
     client = gspread.authorize(CREDENTIALS)
+    #TODO: Improve this against exception Unauthorized
     worksheet = client.open(spreadsheet_name).sheet1
 
     logger.info("Appending data to spreadsheet: %s ", spreadsheet_name)
@@ -68,6 +70,36 @@ def append(spreadsheet_name, sheet_data):
     # Upload it
     worksheet.update_cells(cell_list)
     logger.info("Appending data to spreadsheet - done")
+
+
+
+def get_data_set_from_spreadDB(spreadsheet_name):
+    client = gspread.authorize(CREDENTIALS)
+    #TODO: Improve this against exception Unauthorized
+    worksheet = client.open(spreadsheet_name).sheet1
+    logger.info("Downloading data from spreadsheet DB")
+    db_list = worksheet.get_all_values()
+
+    # TODO: Google Spreadsheet returns just 'String' type data, so we have to cast it here.
+    # Should be replaced by database handler later
+    for i in db_list:
+        i[0] = int(i[0]) if i[0] != '' else None
+        i[2] = float(i[2]) if i[2] != '' else None
+
+    data_set = db_list
+    return data_set
+
+
+
+
+
+
+
+##
+#
+# Test function
+#
+##
 
 def runappend():
     logger.info("Testing append function")

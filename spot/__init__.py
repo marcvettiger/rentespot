@@ -1,5 +1,16 @@
-import logging
-import logging.config
+from .Spots import Spots
+from .Spots import DataEngine
 
-logging.config.fileConfig('../cfg/logger.conf')
-logger = logging.getLogger()
+# -*- coding: utf-8 -*-
+
+"""
+Spot
+~~~~~~~
+
+Spots client library.
+
+"""
+
+__version__ = '0.0.2'
+__author__ = 'Marc Vettiger'
+
