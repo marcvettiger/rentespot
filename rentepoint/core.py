@@ -6,9 +6,7 @@ import requests
 import bs4
 import time
 import pandas
-import unittest
-
-
+import csv
 
 
 ##
@@ -85,14 +83,26 @@ def load_json(spots_file):
     except ValueError:
         logger.error("Failed to load JSON data. Value Error")
 
+
+# TODO: fix this CSV function and the CSV file in src folder !!!!
+def readCSV(csvFilename, colmns = 0):
+    """Should read the list of all json files"""
+    with open(csvFilename, 'rU') as f:
+        reader = csv.reader(f, delimiter=' ', dialect=csv.excel_tab)
+        spot_files = []
+        for row in reader:
+            spot_files.append(row)
+    return spot_files
+
+
 ##
 #
 # Classes to work with
 #
 ##
 
-
 class DataEngine(object):
+    """Main class to handle ratings download / storing and loading from database"""
 
     url_dict = {}
 
@@ -110,15 +120,16 @@ class DataEngine(object):
         logger.info("Packing data in pandas DF")
         df = pandas.DataFrame(data_set, columns=['_id', 'date', 'rating'])
         df = df.pivot_table(values='rating', index='_id', columns='date', aggfunc='first')
+        df = df.reset_index()
         return df
 
 
 
     def get_update_data(self, id_list):
         """
-        Main function to get data for updating spot forecasts. Will scrape json files from MSW and load ratings from it.
+        Main function to get data for updating spots forecasts. Will scrape json files from MSW and load ratings from it.
         The Function retrieves and process the data to format [ spot_id , day_date, rating ]
-        :param id_list: A selection of spot ids to get update list from
+        :param id_list: A selection of spots ids to get update list from
         :return: data_set: as list containing all ratings in long format to pass on for storing/ etc..
         """
         urls = {i: self.url_dict[i] for i in id_list}
@@ -185,14 +196,6 @@ class DataEngine(object):
         return x
 
 
-
-
-
-
-
-
-
-
 class Spots(object):
     """
     Class to handle all Spots. It loads all reference data on __init__ .
@@ -217,7 +220,7 @@ class Spots(object):
 
     def get_ids(self):
         """
-        :return: A list of all unique spot ids
+        :return: A list of all unique spots ids
         """
         return [_id for _id in self.dict ]
 
@@ -229,23 +232,16 @@ class Spots(object):
         :return: Panda data frame
         """
         df = pandas.DataFrame.from_dict(self.dict.values(), orient='columns')
+
         df = df.drop('description', 1)
         df = df.drop('hasNetcam', 1)
-        df = df.drop('region', 1)
+        df = df.drop('url', 1)
 
         return df
 
     def get_urls(self):
         """Returns a dictionary for all spots with { id : url }"""
         return {spot_id: spot['url'] for spot_id, spot in self.dict.iteritems()}
-
-
-    # def get_ids_longitude_sorted(self):
-    #     """
-    #     Return a list of all spot ids sorted by longitude
-    #     """
-    #     x = {spot_id: spot['lon'] for spot_id, spot in self.dict.iteritems()}
-    #     return sorted(x, key=x.get)
 
 
 

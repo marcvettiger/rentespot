@@ -1,25 +1,30 @@
-import logging
-import logging.config
+import os.path
 import gspread
+import logging.config
 from oauth2client.service_account import ServiceAccountCredentials
-import pandas
 
-logging.config.fileConfig('cfg/logger.conf')
+PACKAGE_DIR = os.path.dirname(os.path.abspath(__file__))
+RESOURCE_PATH = os.path.join(PACKAGE_DIR, 'src/')
+SECRET_PATH = os.path.join(PACKAGE_DIR, '../cfg/client_secret.json')
+LOGGER_CFG = os.path.join(PACKAGE_DIR, '../cfg/logger.conf')
+
+logging.config.fileConfig(LOGGER_CFG)
 logger = logging.getLogger()
 
 
 SCOPE = ['https://spreadsheets.google.com/feeds',
          'https://www.googleapis.com/auth/drive']
 
-CREDENTIALS = ServiceAccountCredentials.from_json_keyfile_name('resources/client_secret.json', SCOPE)
+CREDENTIALS = ServiceAccountCredentials.from_json_keyfile_name(SECRET_PATH, SCOPE)
 
 
-def new(spreadsheet_name):
+def new(spreadsheet_name, share=True):
     client = gspread.authorize(CREDENTIALS)
     spread = client.create(spreadsheet_name)
     spread.sheet1.resize(1, 1)
     spread.share("marc.vettiger@gmail.com", perm_type='user', role='writer')
-    spread.share("sandro.jeanmairet@gmail.com", perm_type='user', role='writer')
+    if share is True:
+        spread.share("sandro.jeanmairet@gmail.com", perm_type='user', role='writer')
     return spread
 
 
@@ -58,7 +63,7 @@ def append(spreadsheet_name, sheet_data):
 
     cell_list = worksheet.range(cell_range)
 
-    # Flatten our data
+    # Flatten our data to one-dimensional list
     zdata = [x
              for row in sheet_data
              for x in row]
@@ -73,11 +78,11 @@ def append(spreadsheet_name, sheet_data):
 
 
 
-def get_data_set_from_spreadDB(spreadsheet_name):
+def get_data(spreadsheet_name):
     client = gspread.authorize(CREDENTIALS)
     #TODO: Improve this against exception Unauthorized
     worksheet = client.open(spreadsheet_name).sheet1
-    logger.info("Downloading data from spreadsheet DB")
+    logger.info("Downloading data from Google Spreadsheet: %s ", spreadsheet_name)
     db_list = worksheet.get_all_values()
 
     # TODO: Google Spreadsheet returns just 'String' type data, so we have to cast it here.
@@ -89,17 +94,17 @@ def get_data_set_from_spreadDB(spreadsheet_name):
     data_set = db_list
     return data_set
 
-
-
-
-
-
-
 ##
 #
 # Test function
 #
 ##
+
+
+def authorize_check():
+    client = gspread.authorize(CREDENTIALS)
+    pass
+
 
 def runappend():
     logger.info("Testing append function")
@@ -114,7 +119,26 @@ def runappend():
     append('TestSheet', test_data)
 
 
+def run_new_file_and_append():
+    logger.info("Testing new and append function")
+
+
+    test_data = [
+        ['first', 'second', 'third', 'xabc', 'xdef', 'xghi'],
+        ['erste', 'zweite', 'dritte', 'xabc', 'xdef', 'xghi'],
+        ['abc', 'def', 'ghi', 'xabc', 'xdef', 'xghi'],
+        ['jkl', 'mno', 'pqr', 'xabc', 'xdef', 'xghi'],
+        ['xxx', 'yyy', 'zzz', 'xabc', 'xdef', 'xghi'],
+    ]
+
+    filename = "TestSpread"
+    #new(filename, share=False)
+    append(filename, test_data)
+
+    pass
 
 
 if __name__ == '__main__':
-    runappend()
+    authorize_check()
+    #runappend()
+    #run_new_file_append()
