@@ -43,3 +43,6 @@ Play with it
 ~~~
 spotsDF.head()
 ~~~
+
+Links:
+https://www.surfline.com/surfology/surfology_glossary_index.cfm

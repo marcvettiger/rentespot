@@ -235,7 +235,7 @@ class Spots(object):
 
         df = df.drop('description', 1)
         df = df.drop('hasNetcam', 1)
-        df = df.drop('url', 1)
+        # df = df.drop('url', 1)
 
         return df
 
