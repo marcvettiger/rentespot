@@ -1,9 +1,11 @@
+pandas
 ####### project requirements.txt #######
 #
 # run it from cmd line:
 # pip install -r requirements.txt
 
 numpy
+pandas
 
 ## data scraper requirements
 bs4
