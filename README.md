@@ -44,5 +44,12 @@ Play with it
 spotsDF.head()
 ~~~
 
+Print top 20 Spots sorted by best surf ratings
+~~~
+dates = spotsDF.columns[7:].tolist()
+spotsDF.sort_values(dates,ascending=False).head(20)
+~~~
+
+
 Links:
 https://www.surfline.com/surfology/surfology_glossary_index.cfm

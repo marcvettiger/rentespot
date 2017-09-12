@@ -224,6 +224,10 @@ class Spots(object):
         """
         return [_id for _id in self.dict ]
 
+    def get_urls(self):
+        """Returns a dictionary for all spots with { id : url }"""
+        return {spot_id: spot['url'] for spot_id, spot in self.dict.iteritems()}
+
     def get_pandaDF(self, ids=None, source=None):
         """
         Function to get panda data frame of Spots().
@@ -232,17 +236,15 @@ class Spots(object):
         :return: Panda data frame
         """
         df = pandas.DataFrame.from_dict(self.dict.values(), orient='columns')
-
         df = df.drop('description', 1)
         df = df.drop('hasNetcam', 1)
         # df = df.drop('url', 1)
-
         return df
 
-    def get_urls(self):
-        """Returns a dictionary for all spots with { id : url }"""
-        return {spot_id: spot['url'] for spot_id, spot in self.dict.iteritems()}
-
+    def from_data(self, panda_df):
+        """Return a Spots object filled with passed panda_df"""
+        #TODO: implement it
+        pass
 
 
 
