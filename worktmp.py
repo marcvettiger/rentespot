@@ -41,3 +41,7 @@ def multithreaded_download():
     print "exiting main thread"
     logger.info("finished application")
 
+
+if __name__ == '__main__':
+    logging.config.fileConfig('cfg/logger.conf')
+    logger = logging.getLogger()
