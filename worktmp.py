@@ -1,7 +1,5 @@
 import threading
-
-
-
+import logging
 
 
 class downloadthread(threading.thread):

@@ -8,7 +8,7 @@ from rentepoint import Spots, DataEngine, spread
 
 
 def download_allatones():
-    """download function to download new forecast data from MSW."""
+    """Download function to download new forecast data from MSW."""
     logger.info("Starting download all at ones routine")
 
     spread_name = "RentepointDB"
@@ -58,7 +58,7 @@ def print_top20_rated_spots(spots_df):
 def scheduled_runner():
     """Scheduled function to run download function for new forecast data from MSW each day at 3pm hours every day."""
     logger.info("Starting scheduled runner")
-    moment = "19:15"
+    moment = "00:00"
     logger.info("Downloading new data every day at %s" % moment)
     schedule.every().day.at(moment).do(download_allatones)
     schedule.every().hour.do(logger.info, "still alive...")
