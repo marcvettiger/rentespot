@@ -1,7 +1,6 @@
 import os.path
 import gspread
 import logging.config
-import time
 from oauth2client.service_account import ServiceAccountCredentials
 
 PACKAGE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -19,8 +18,9 @@ SCOPE = ['https://spreadsheets.google.com/feeds',
 CREDENTIALS = ServiceAccountCredentials.from_json_keyfile_name(SECRET_PATH, SCOPE)
 
 WORKSHEET_FORECAST = "forecast"
-WORKSHEET_BACKUP = "backup_yesterday"
-WORKSHEET_TMP = "tmp-work-in-progress"
+WORKSHEET_BACKUP = "yesterday-backup"
+# WORKSHEET_TMP = "tmp-work-in-progress"
+
 
 def new(spreadsheet_name, share=True):
     client = gspread.authorize(CREDENTIALS)
@@ -35,7 +35,7 @@ def new(spreadsheet_name, share=True):
 def append(spreadsheet_name, sheet_data):
     client = gspread.authorize(CREDENTIALS)
     #TODO: Improve this against exception Unauthorized
-    worksheet = client.open(spreadsheet_name).sheet1
+    worksheet = client.open(spreadsheet_name).worksheet(WORKSHEET_FORECAST)
 
     logger.info("Appending data to spreadsheet: %s ", spreadsheet_name)
     row_count = worksheet.row_count
@@ -84,7 +84,8 @@ def append(spreadsheet_name, sheet_data):
 def get_data(spreadsheet_name):
     client = gspread.authorize(CREDENTIALS)
     #TODO: Improve this against exception Unauthorized
-    worksheet = client.open(spreadsheet_name).sheet1
+    worksheet = client.open(spreadsheet_name).worksheet(WORKSHEET_FORECAST)
+
     logger.info("Downloading data from Google Spreadsheet: %s ", spreadsheet_name)
     db_list = worksheet.get_all_values()
 
@@ -98,13 +99,26 @@ def get_data(spreadsheet_name):
     return data_set
 
 
-def clean_db(spreadsheet_name):
-    logger.info("Preparing DB for update")
+def backup_db(spreadsheet_name):
+    logger.info("Backup DB")
     client = gspread.authorize(CREDENTIALS)
     spreadsheet = client.open(spreadsheet_name)
+    wsforecast = spreadsheet.worksheet(WORKSHEET_FORECAST)
 
-    logger.info("Clean worksheet")
-    ws = spreadsheet.worksheet("sheet1")
+    logger.info("Deleting old backup")
+    spreadsheet.del_worksheet(spreadsheet.worksheet(WORKSHEET_BACKUP))
+
+    logger.info("Rename old forecast sheet to yesterday-backup")
+    wsforecast.update_title(WORKSHEET_BACKUP)
+
+    logger.info("Create new forecast worksheet")
+    spreadsheet.add_worksheet(WORKSHEET_FORECAST, 1, 1)
+
+
+def clean_db(spreadsheet_name, worksheet):
+    logger.info("Clean worksheet of spreadsheet")
+    client = gspread.authorize(CREDENTIALS)
+    ws = client.open(spreadsheet_name).worksheet(worksheet)
     ws.resize(1, 1)
     ws.clear()
 
@@ -115,13 +129,12 @@ def clean_db(spreadsheet_name):
 #
 ##
 
-
 def authorize_check():
     client = gspread.authorize(CREDENTIALS)
     pass
 
 
-def runappend():
+def runappend(spreadsheet_name):
     logger.info("Testing append function")
     test_data = [
         ['first', 'second', 'third','xabc', 'xdef', 'xghi'],
@@ -130,32 +143,13 @@ def runappend():
         ['jkl', 'mno', 'pqr','xabc', 'xdef', 'xghi'],
         ['xxx', 'yyy', 'zzz','xabc', 'xdef', 'xghi'],
     ]
-
-    append('TestSheet', test_data)
-
-
-def run_new_file_and_append():
-    logger.info("Testing new and append function")
-
-
-    test_data = [
-        ['first', 'second', 'third', 'xabc', 'xdef', 'xghi'],
-        ['erste', 'zweite', 'dritte', 'xabc', 'xdef', 'xghi'],
-        ['abc', 'def', 'ghi', 'xabc', 'xdef', 'xghi'],
-        ['jkl', 'mno', 'pqr', 'xabc', 'xdef', 'xghi'],
-        ['xxx', 'yyy', 'zzz', 'xabc', 'xdef', 'xghi'],
-    ]
-
-    filename = "TestSpread"
-    #new(filename, share=False)
-    append(filename, test_data)
-
-    pass
+    append(spreadsheet_name, test_data)
 
 
 if __name__ == '__main__':
     pass
     # authorize_check()
     #clean_db("RentepointDB")
-    #runappend()
+    backup_db("20170806_Rentepoint")
+    runappend("20170806_Rentepoint")
     #run_new_file_append()
