@@ -1,6 +1,7 @@
 import os.path
 import gspread
 import logging.config
+import time
 from oauth2client.service_account import ServiceAccountCredentials
 
 PACKAGE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -17,6 +18,9 @@ SCOPE = ['https://spreadsheets.google.com/feeds',
 
 CREDENTIALS = ServiceAccountCredentials.from_json_keyfile_name(SECRET_PATH, SCOPE)
 
+WORKSHEET_FORECAST = "forecast"
+WORKSHEET_BACKUP = "backup_yesterday"
+WORKSHEET_TMP = "tmp-work-in-progress"
 
 def new(spreadsheet_name, share=True):
     client = gspread.authorize(CREDENTIALS)
@@ -77,7 +81,6 @@ def append(spreadsheet_name, sheet_data):
     logger.info("Appending data to spreadsheet - done")
 
 
-
 def get_data(spreadsheet_name):
     client = gspread.authorize(CREDENTIALS)
     #TODO: Improve this against exception Unauthorized
@@ -93,6 +96,18 @@ def get_data(spreadsheet_name):
 
     data_set = db_list
     return data_set
+
+
+def clean_db(spreadsheet_name):
+    logger.info("Preparing DB for update")
+    client = gspread.authorize(CREDENTIALS)
+    spreadsheet = client.open(spreadsheet_name)
+
+    logger.info("Clean worksheet")
+    ws = spreadsheet.worksheet("sheet1")
+    ws.resize(1, 1)
+    ws.clear()
+
 
 ##
 #
@@ -139,6 +154,8 @@ def run_new_file_and_append():
 
 
 if __name__ == '__main__':
-    authorize_check()
+    pass
+    # authorize_check()
+    #clean_db("RentepointDB")
     #runappend()
     #run_new_file_append()

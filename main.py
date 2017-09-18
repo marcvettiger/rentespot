@@ -1,23 +1,28 @@
 import logging.config
 import gspread
+import schedule
+import time
+import threading
 
 from rentepoint import Spots, DataEngine, spread
 
 
-def main_download():
-    """Main function to download new forecast data from MSW."""
-    spread_name = "RentepointDB"
+def download_allatones():
+    """download function to download new forecast data from MSW."""
+    logger.info("Starting download all at ones")
 
-    logger.info("Running it the slick way")
+    spread_name = "RentepointDB"
+    spread.clean_db(spread_name)
 
     ids = Spots().get_ids()
 
-    logger.info("Slicing list in even size chunks of 100ds")
-    chunks = [ids[i:i + 100] for i in xrange(0, len(ids), 100)]
+    chunk_size = 100
+    logger.info("Slicing list in even size chunks of %s" % chunk_size)
+    chunks = [ids[i:i + chunk_size] for i in xrange(0, len(ids), chunk_size)]
+    logger.debug("Number of chunks: %s" % len(chunks))
 
-    for chunk in chunks[0:1]:
+    for chunk in chunks:
         res = DataEngine().get_update_data(chunk)
-        #TODO: Better solution for this !!
 
         try:
             spread.append(spread_name, res)
@@ -50,13 +55,6 @@ def print_top20_rated_spots(spots_df):
     spots_df.sort_values(dates, ascending=False).head(20)
 
 
-
-
-import threading
-
-exitFlag = 0
-
-
 class DownloadThread(threading.Thread):
     def __init__(self, thread_id, chunk):
         threading.Thread.__init__(self)
@@ -76,40 +74,46 @@ def multithreaded_download():
 
     ids = Spots().get_ids()
 
-    logger.info("Slicing list in even size chunks of 100ds")
-    chunks = [ids[i:i + 100] for i in xrange(0, len(ids), 100)]
+    chunk_size = 100
+    logger.info("Slicing list in even size chunks of %s" % chunk_size)
+    chunks = [ids[i:i + chunk_size] for i in xrange(0, len(ids), chunk_size)]
     logger.debug("Number of chunks: %s" % len(chunks))
 
-    thread_list = []
-    i = 1
-    for chunk in chunks:
-        thread = DownloadThread(i, chunk)
+    threads = []
+
+    for i in range(0, len(chunks[:5])):
+        thread = DownloadThread(i, chunks[i])
         thread.start()
-        i += 1
+        threads.append(thread)
 
-    # # Start all Threads
-    # thread1.start()
-    # thread2.start()
+    for t in threads:
+        t.join()
 
-         # TODO: Better solution for this !!
-
-    #     try:
-    #         spread.append(spread_name, res)
-    #     except gspread.exceptions.RequestError as e:
-    #         logger.error("Request Error in writing to Google Spread sheet:")
-    #         logger.error("Timeout 5s and trying again")
-    #         logger.error(e)
-    #         spread.append(spread_name, res)
-
+    print "Exiting Main Thread"
     logger.info("Finished application")
+
+
+def scheduled_runner():
+    """Scheduled function to run download function for new forecast data from MSW each day at 3pm hours every day."""
+    logger.info("Starting scheduled runner")
+    moment = "19:15"
+    logger.info("Downloading new data every day at %s" % moment)
+    schedule.every().day.at(moment).do(download_allatones)
+    schedule.every().hour.do(logger.info, "still alive...")
+
+    while True:
+        schedule.run_pending()
+        time.sleep(60)
+
+
+
+
 
 if __name__ == '__main__':
     logging.config.fileConfig('cfg/logger.conf')
     logger = logging.getLogger()
-
     #pandas_load_example()
     #main_download()
+    #multithreaded_download()
 
-    multithreaded_download()
-
-
+    scheduled_runner()
