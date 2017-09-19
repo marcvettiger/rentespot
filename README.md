@@ -13,13 +13,13 @@ pip install -r requirements.txt
 ## Basic Usage
 Imports
 ~~~
-import rentepoint
+from rentepoint import Spots, DataEngine, spread
 ~~~
 
 #### Load Spot data 
 Get a Spots() object which holds all reference data in a dict
 ~~~
-s = rentepoint.Spots()
+s = Spots()
 ~~~
 and therefrom get a pandas DataFrame with all spots. 
 This Data Frame does not contain any forecast data yet.
@@ -36,7 +36,7 @@ data_set = spread.get_data("RentepointDB")
 ~~~
 and pass it to DataEngine to get it in a new separate Data Frame
 ~~~
-ratings_df = rentepoint.DataEngine.get_pandaDF(data_set)
+ratings_df = DataEngine.get_pandaDF(data_set)
 ~~~
 
 #### Compine Spot and Forecast data 
@@ -57,6 +57,13 @@ Print top 20 Spots sorted by best surf ratings
 dates = spotsDF.columns[7:].tolist()
 spotsDF.sort_values(dates,ascending=False).head(20)
 ~~~
+
+Get top 20 Spots of a Portugal
+~~~
+portugal_spotsDF = spotsDF.loc[spotsDF["country"] == {u'iso': u'pt'}]
+portugal_spotsDF.sort_values(dates,ascending=False).head(20)
+~~~
+
 
 
 Links:
