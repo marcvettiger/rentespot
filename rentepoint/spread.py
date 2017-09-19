@@ -86,7 +86,8 @@ def get_data(spreadsheet_name):
     #TODO: Improve this against exception Unauthorized
     worksheet = client.open(spreadsheet_name).worksheet(WORKSHEET_FORECAST)
 
-    logger.info("Downloading data from Google Spreadsheet: %s ", spreadsheet_name)
+    logger.info("Getting forecast data from Google Spreadsheet: %s ", spreadsheet_name)
+    logger.info("This may take a minute or two ... ")
     db_list = worksheet.get_all_values()
 
     # TODO: Google Spreadsheet returns just 'String' type data, so we have to cast it here.
@@ -96,6 +97,7 @@ def get_data(spreadsheet_name):
         i[2] = float(i[2]) if i[2] != '' else None
 
     data_set = db_list
+    logger.info("Getting forecast data - done")
     return data_set
 
 
@@ -150,6 +152,6 @@ if __name__ == '__main__':
     pass
     # authorize_check()
     #clean_db("RentepointDB")
-    backup_db("20170806_Rentepoint")
-    runappend("20170806_Rentepoint")
+    #backup_db("20170806_Rentepoint")
+    #runappend("20170806_Rentepoint")
     #run_new_file_append()
