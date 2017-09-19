@@ -13,27 +13,35 @@ pip install -r requirements.txt
 ## Basic Usage
 Imports
 ~~~
-from rentepoint import Spots, DataEngine, spread
+import rentepoint
 ~~~
+
+#### Load Spot data 
 Get a Spots() object which holds all reference data in a dict
 ~~~
 s = rentepoint.Spots()
 ~~~
-and therefrom get a pandas DataFrame with all spots
+and therefrom get a pandas DataFrame with all spots. 
+This Data Frame does not contain any forecast data yet.
+It contains only the persistent spot data like name, location, region, etc.
 ~~~
 spots_df = s.get_pandaDF()
 ~~~
+
+#### Load Forecast data
 
 Load forecast data from our spreadsheet
 ~~~
 data_set = spread.get_data("RentepointDB")
 ~~~
-and pass it to DataEngine to get it in a  panda frame back
+and pass it to DataEngine to get it in a new separate Data Frame
 ~~~
-ratings_df = DataEngine.get_pandaDF(data_set)
+ratings_df = rentepoint.DataEngine.get_pandaDF(data_set)
 ~~~
 
-Merge them
+#### Compine Spot and Forecast data 
+
+Merge them as following. Spots DF will now hold all Spot and Forecast Data
 ~~~
 spotsDF = spots_df.merge(ratings_df, on='_id')
 ~~~
