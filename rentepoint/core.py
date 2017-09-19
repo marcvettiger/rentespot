@@ -7,6 +7,7 @@ import bs4
 import time
 import pandas
 import csv
+import spread
 
 
 ##
@@ -208,6 +209,7 @@ class Spots(object):
 
     def __init__(self):
         self.__load()
+        self.__pretty_dict()
         pass
 
     def __load(self):
@@ -217,6 +219,16 @@ class Spots(object):
             spot_group = load_json(j)
             for spot in spot_group:
                 self.dict[spot['_id']] = spot
+
+    def __pretty_dict(self):
+        logger.debug("prettifying country, region and complete url. removing description, hasNetcam")
+        for _, details in self.dict.iteritems():
+            details['country'] = details['country']['iso']
+            details['region'] = details['region']['_id']
+            details['url'] = MSW_URL + details['url']
+            del details['description']
+            del details['hasNetcam']
+
 
     def get_ids(self):
         """
@@ -235,11 +247,14 @@ class Spots(object):
         :param source: Select source from where to retrieve Forecast Data options as [ gspread_DB, msw, None ]
         :return: Panda data frame
         """
-        df = pandas.DataFrame.from_dict(self.dict.values(), orient='columns')
-        df = df.drop('description', 1)
-        df = df.drop('hasNetcam', 1)
-        # df = df.drop('url', 1)
-        return df
+        spots_df = pandas.DataFrame.from_dict(self.dict.values(), orient='columns')
+
+        if source is not None:
+            data_set = spread.get_data(source)
+            ratings_df = DataEngine.get_pandaDF(data_set)
+            return spots_df.merge(ratings_df, on='_id')
+        else:
+            return spots_df
 
     def from_data(self, panda_df):
         """Return a Spots object filled with passed panda_df"""
@@ -251,6 +266,8 @@ class Spots(object):
 
 
 if __name__ == "__main__":
+    #s = Spots().get_pandaDF(source="RentepointDB")
+    #print type(s)
     pass
 
 
